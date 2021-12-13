@@ -1,0 +1,1510 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20213.21.1112.1434                               -->
+<workbook original-version='18.1' source-build='2021.3.4 (20213.21.1112.1434)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='national_data_employees' inline='true' name='federated.1db2tw71aui6y119nu4u91ab0sl4' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='national_data_employees' name='textscan.0tozbm41fzamst13tzxmh15t95w5'>
+            <connection class='textscan' directory='C:/Users/Joselit/OneDrive/Documents/nss-data-analytics/projects/Capstone/Notebooks' filename='national_data_employees.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0tozbm41fzamst13tzxmh15t95w5' name='national_data_employees.csv' table='[national_data_employees#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='F1' ordinal='0' />
+            <column datatype='real' name='Total Nonfarm Employment' ordinal='1' />
+            <column datatype='real' name='Total Private Employment' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0tozbm41fzamst13tzxmh15t95w5' name='national_data_employees.csv' table='[national_data_employees#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='F1' ordinal='0' />
+            <column datatype='real' name='Total Nonfarm Employment' ordinal='1' />
+            <column datatype='real' name='Total Private Employment' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[national_data_employees.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[national_data_employees.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[national_data_employees.csv_C453818C34C64F21B8196DB24E23B3F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Nonfarm Employment</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Nonfarm Employment]</local-name>
+            <parent-name>[national_data_employees.csv]</parent-name>
+            <remote-alias>Total Nonfarm Employment</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[national_data_employees.csv_C453818C34C64F21B8196DB24E23B3F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Private Employment</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Private Employment]</local-name>
+            <parent-name>[national_data_employees.csv]</parent-name>
+            <remote-alias>Total Private Employment</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[national_data_employees.csv_C453818C34C64F21B8196DB24E23B3F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Date' datatype='date' name='[F1]' role='dimension' type='ordinal' />
+      <column caption='Total Nonfarm Employment (Thousands)' datatype='real' name='[Total Nonfarm Employment]' role='measure' type='quantitative' />
+      <column caption='Total Private Employment( Thousands)' datatype='real' name='[Total Private Employment]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='national_data_employees.csv' datatype='table' name='[__tableau_internal_object_id__].[national_data_employees.csv_C453818C34C64F21B8196DB24E23B3F5]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='national_data_employees.csv' id='national_data_employees.csv_C453818C34C64F21B8196DB24E23B3F5'>
+            <properties context=''>
+              <relation connection='textscan.0tozbm41fzamst13tzxmh15t95w5' name='national_data_employees.csv' table='[national_data_employees#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='date' name='F1' ordinal='0' />
+                  <column datatype='real' name='Total Nonfarm Employment' ordinal='1' />
+                  <column datatype='real' name='Total Private Employment' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='industry_data_employees' inline='true' name='federated.02tmluw0jz2z5014y1zcg0sstdxx' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='industry_data_employees' name='textscan.12720mu0uf7w3i18gjchf1xxb81n'>
+            <connection class='textscan' directory='C:/Users/Joselit/OneDrive/Documents/nss-data-analytics/projects/Capstone/Notebooks' filename='industry_data_employees.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.12720mu0uf7w3i18gjchf1xxb81n' name='industry_data_employees.csv' table='[industry_data_employees#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='F1' ordinal='0' />
+            <column datatype='real' name='Utilities' ordinal='1' />
+            <column datatype='real' name='Real Estate' ordinal='2' />
+            <column datatype='real' name='Wholesale_Trade' ordinal='3' />
+            <column datatype='real' name='Professional &amp; Technical Services' ordinal='4' />
+            <column datatype='real' name='Manufacturing' ordinal='5' />
+            <column datatype='real' name='Mining &amp; Logging' ordinal='6' />
+            <column datatype='real' name='Waste Services' ordinal='7' />
+            <column datatype='real' name='Arts, Entertainment, And Recreation' ordinal='8' />
+            <column datatype='real' name='Accommodations &amp; Food Services' ordinal='9' />
+            <column datatype='real' name='Finance &amp; Insurance' ordinal='10' />
+            <column datatype='real' name='Management of Companies &amp; Enterprises' ordinal='11' />
+            <column datatype='real' name='Construction' ordinal='12' />
+            <column datatype='real' name='Healthcare' ordinal='13' />
+            <column datatype='real' name='Transportation' ordinal='14' />
+            <column datatype='real' name='Retail' ordinal='15' />
+            <column datatype='real' name='Information' ordinal='16' />
+            <column datatype='real' name='Other_Services' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.12720mu0uf7w3i18gjchf1xxb81n' name='industry_data_employees.csv' table='[industry_data_employees#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='F1' ordinal='0' />
+            <column datatype='real' name='Utilities' ordinal='1' />
+            <column datatype='real' name='Real Estate' ordinal='2' />
+            <column datatype='real' name='Wholesale_Trade' ordinal='3' />
+            <column datatype='real' name='Professional &amp; Technical Services' ordinal='4' />
+            <column datatype='real' name='Manufacturing' ordinal='5' />
+            <column datatype='real' name='Mining &amp; Logging' ordinal='6' />
+            <column datatype='real' name='Waste Services' ordinal='7' />
+            <column datatype='real' name='Arts, Entertainment, And Recreation' ordinal='8' />
+            <column datatype='real' name='Accommodations &amp; Food Services' ordinal='9' />
+            <column datatype='real' name='Finance &amp; Insurance' ordinal='10' />
+            <column datatype='real' name='Management of Companies &amp; Enterprises' ordinal='11' />
+            <column datatype='real' name='Construction' ordinal='12' />
+            <column datatype='real' name='Healthcare' ordinal='13' />
+            <column datatype='real' name='Transportation' ordinal='14' />
+            <column datatype='real' name='Retail' ordinal='15' />
+            <column datatype='real' name='Information' ordinal='16' />
+            <column datatype='real' name='Other_Services' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_C6E10F060A5741C1B04EAEF143D6A211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Utilities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Utilities]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Utilities</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_C6E10F060A5741C1B04EAEF143D6A211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Real Estate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Real Estate]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Real Estate</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_C6E10F060A5741C1B04EAEF143D6A211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wholesale_Trade</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Wholesale_Trade]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Wholesale_Trade</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_C6E10F060A5741C1B04EAEF143D6A211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Professional &amp; Technical Services</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Professional &amp; Technical Services]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Professional &amp; Technical Services</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_C6E10F060A5741C1B04EAEF143D6A211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Manufacturing</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Manufacturing]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Manufacturing</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_C6E10F060A5741C1B04EAEF143D6A211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mining &amp; Logging</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mining &amp; Logging]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Mining &amp; Logging</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_C6E10F060A5741C1B04EAEF143D6A211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Waste Services</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Waste Services]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Waste Services</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_C6E10F060A5741C1B04EAEF143D6A211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Arts, Entertainment, And Recreation</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Arts, Entertainment, And Recreation]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Arts, Entertainment, And Recreation</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_C6E10F060A5741C1B04EAEF143D6A211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accommodations &amp; Food Services</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Accommodations &amp; Food Services]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Accommodations &amp; Food Services</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_C6E10F060A5741C1B04EAEF143D6A211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Finance &amp; Insurance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Finance &amp; Insurance]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Finance &amp; Insurance</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_C6E10F060A5741C1B04EAEF143D6A211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Management of Companies &amp; Enterprises</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Management of Companies &amp; Enterprises]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Management of Companies &amp; Enterprises</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_C6E10F060A5741C1B04EAEF143D6A211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Construction</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Construction]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Construction</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_C6E10F060A5741C1B04EAEF143D6A211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Healthcare</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Healthcare]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Healthcare</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_C6E10F060A5741C1B04EAEF143D6A211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transportation</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Transportation]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Transportation</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_C6E10F060A5741C1B04EAEF143D6A211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Retail</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Retail]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Retail</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_C6E10F060A5741C1B04EAEF143D6A211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Information</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Information]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Information</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_C6E10F060A5741C1B04EAEF143D6A211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other_Services</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Other_Services]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Other_Services</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_C6E10F060A5741C1B04EAEF143D6A211]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Other Services' datatype='real' name='[Other_Services]' role='measure' type='quantitative' />
+      <column caption='Wholesale Trade' datatype='real' name='[Wholesale_Trade]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='industry_data_employees.csv' datatype='table' name='[__tableau_internal_object_id__].[industry_data_employees.csv_C6E10F060A5741C1B04EAEF143D6A211]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='industry_data_employees.csv' id='industry_data_employees.csv_C6E10F060A5741C1B04EAEF143D6A211'>
+            <properties context=''>
+              <relation connection='textscan.12720mu0uf7w3i18gjchf1xxb81n' name='industry_data_employees.csv' table='[industry_data_employees#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='date' name='F1' ordinal='0' />
+                  <column datatype='real' name='Utilities' ordinal='1' />
+                  <column datatype='real' name='Real Estate' ordinal='2' />
+                  <column datatype='real' name='Wholesale_Trade' ordinal='3' />
+                  <column datatype='real' name='Professional &amp; Technical Services' ordinal='4' />
+                  <column datatype='real' name='Manufacturing' ordinal='5' />
+                  <column datatype='real' name='Mining &amp; Logging' ordinal='6' />
+                  <column datatype='real' name='Waste Services' ordinal='7' />
+                  <column datatype='real' name='Arts, Entertainment, And Recreation' ordinal='8' />
+                  <column datatype='real' name='Accommodations &amp; Food Services' ordinal='9' />
+                  <column datatype='real' name='Finance &amp; Insurance' ordinal='10' />
+                  <column datatype='real' name='Management of Companies &amp; Enterprises' ordinal='11' />
+                  <column datatype='real' name='Construction' ordinal='12' />
+                  <column datatype='real' name='Healthcare' ordinal='13' />
+                  <column datatype='real' name='Transportation' ordinal='14' />
+                  <column datatype='real' name='Retail' ordinal='15' />
+                  <column datatype='real' name='Information' ordinal='16' />
+                  <column datatype='real' name='Other_Services' ordinal='17' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='national_data_employees+' inline='true' name='federated.1u97upg1etti7r142zl4k062t45m' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='national_data_employees' name='textscan.148yc4c1dxqu9y1gzo0xl0f3divy'>
+            <connection class='textscan' directory='C:/Users/Joselit/OneDrive/Documents/nss-data-analytics/projects/Capstone/Notebooks' filename='national_data_employees.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.148yc4c1dxqu9y1gzo0xl0f3divy' name='industry_data_earnings.csv' table='[industry_data_earnings#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='F1' ordinal='0' />
+            <column datatype='real' name='Utilities' ordinal='1' />
+            <column datatype='real' name='Real Estate' ordinal='2' />
+            <column datatype='real' name='Wholesale_Trade' ordinal='3' />
+            <column datatype='real' name='Professional &amp; Technical Services' ordinal='4' />
+            <column datatype='real' name='Manufacturing' ordinal='5' />
+            <column datatype='real' name='Mining &amp; Logging' ordinal='6' />
+            <column datatype='real' name='Waste Services' ordinal='7' />
+            <column datatype='real' name='Arts, Entertainment, And Recreation' ordinal='8' />
+            <column datatype='real' name='Accommodations &amp; Food Services' ordinal='9' />
+            <column datatype='real' name='Finance &amp; Insurance' ordinal='10' />
+            <column datatype='real' name='Management of Companies &amp; Enterprises' ordinal='11' />
+            <column datatype='real' name='Construction' ordinal='12' />
+            <column datatype='real' name='Healthcare' ordinal='13' />
+            <column datatype='real' name='Transportation' ordinal='14' />
+            <column datatype='real' name='Retail' ordinal='15' />
+            <column datatype='real' name='Information' ordinal='16' />
+            <column datatype='real' name='Other_Services' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='textscan.148yc4c1dxqu9y1gzo0xl0f3divy' name='national_data_employees.csv' table='[national_data_employees#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='date' name='F1' ordinal='0' />
+              <column datatype='real' name='Total Nonfarm Employment' ordinal='1' />
+              <column datatype='real' name='Total Private Employment' ordinal='2' />
+            </columns>
+          </relation>
+          <relation connection='textscan.148yc4c1dxqu9y1gzo0xl0f3divy' name='industry_data_earnings.csv' table='[industry_data_earnings#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='date' name='F1' ordinal='0' />
+              <column datatype='real' name='Utilities' ordinal='1' />
+              <column datatype='real' name='Real Estate' ordinal='2' />
+              <column datatype='real' name='Wholesale_Trade' ordinal='3' />
+              <column datatype='real' name='Professional &amp; Technical Services' ordinal='4' />
+              <column datatype='real' name='Manufacturing' ordinal='5' />
+              <column datatype='real' name='Mining &amp; Logging' ordinal='6' />
+              <column datatype='real' name='Waste Services' ordinal='7' />
+              <column datatype='real' name='Arts, Entertainment, And Recreation' ordinal='8' />
+              <column datatype='real' name='Accommodations &amp; Food Services' ordinal='9' />
+              <column datatype='real' name='Finance &amp; Insurance' ordinal='10' />
+              <column datatype='real' name='Management of Companies &amp; Enterprises' ordinal='11' />
+              <column datatype='real' name='Construction' ordinal='12' />
+              <column datatype='real' name='Healthcare' ordinal='13' />
+              <column datatype='real' name='Transportation' ordinal='14' />
+              <column datatype='real' name='Retail' ordinal='15' />
+              <column datatype='real' name='Information' ordinal='16' />
+              <column datatype='real' name='Other_Services' ordinal='17' />
+            </columns>
+          </relation>
+          <relation connection='textscan.148yc4c1dxqu9y1gzo0xl0f3divy' name='industry_data_employees.csv' table='[industry_data_employees#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='date' name='F1' ordinal='0' />
+              <column datatype='real' name='Utilities' ordinal='1' />
+              <column datatype='real' name='Real Estate' ordinal='2' />
+              <column datatype='real' name='Wholesale_Trade' ordinal='3' />
+              <column datatype='real' name='Professional &amp; Technical Services' ordinal='4' />
+              <column datatype='real' name='Manufacturing' ordinal='5' />
+              <column datatype='real' name='Mining &amp; Logging' ordinal='6' />
+              <column datatype='real' name='Waste Services' ordinal='7' />
+              <column datatype='real' name='Arts, Entertainment, And Recreation' ordinal='8' />
+              <column datatype='real' name='Accommodations &amp; Food Services' ordinal='9' />
+              <column datatype='real' name='Finance &amp; Insurance' ordinal='10' />
+              <column datatype='real' name='Management of Companies &amp; Enterprises' ordinal='11' />
+              <column datatype='real' name='Construction' ordinal='12' />
+              <column datatype='real' name='Healthcare' ordinal='13' />
+              <column datatype='real' name='Transportation' ordinal='14' />
+              <column datatype='real' name='Retail' ordinal='15' />
+              <column datatype='real' name='Information' ordinal='16' />
+              <column datatype='real' name='Other_Services' ordinal='17' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[Accommodations &amp; Food Services (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Accommodations &amp; Food Services]' />
+          <map key='[Accommodations &amp; Food Services]' value='[industry_data_earnings.csv].[Accommodations &amp; Food Services]' />
+          <map key='[Arts, Entertainment, And Recreation (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Arts, Entertainment, And Recreation]' />
+          <map key='[Arts, Entertainment, And Recreation]' value='[industry_data_earnings.csv].[Arts, Entertainment, And Recreation]' />
+          <map key='[Construction (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Construction]' />
+          <map key='[Construction]' value='[industry_data_earnings.csv].[Construction]' />
+          <map key='[F1 (industry_data_earnings.csv)]' value='[industry_data_earnings.csv].[F1]' />
+          <map key='[F1 (industry_data_employees.csv)]' value='[industry_data_employees.csv].[F1]' />
+          <map key='[F1]' value='[national_data_employees.csv].[F1]' />
+          <map key='[Finance &amp; Insurance (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Finance &amp; Insurance]' />
+          <map key='[Finance &amp; Insurance]' value='[industry_data_earnings.csv].[Finance &amp; Insurance]' />
+          <map key='[Healthcare (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Healthcare]' />
+          <map key='[Healthcare]' value='[industry_data_earnings.csv].[Healthcare]' />
+          <map key='[Information (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Information]' />
+          <map key='[Information]' value='[industry_data_earnings.csv].[Information]' />
+          <map key='[Management of Companies &amp; Enterprises (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Management of Companies &amp; Enterprises]' />
+          <map key='[Management of Companies &amp; Enterprises]' value='[industry_data_earnings.csv].[Management of Companies &amp; Enterprises]' />
+          <map key='[Manufacturing (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Manufacturing]' />
+          <map key='[Manufacturing]' value='[industry_data_earnings.csv].[Manufacturing]' />
+          <map key='[Mining &amp; Logging (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Mining &amp; Logging]' />
+          <map key='[Mining &amp; Logging]' value='[industry_data_earnings.csv].[Mining &amp; Logging]' />
+          <map key='[Other_Services (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Other_Services]' />
+          <map key='[Other_Services]' value='[industry_data_earnings.csv].[Other_Services]' />
+          <map key='[Professional &amp; Technical Services (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Professional &amp; Technical Services]' />
+          <map key='[Professional &amp; Technical Services]' value='[industry_data_earnings.csv].[Professional &amp; Technical Services]' />
+          <map key='[Real Estate (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Real Estate]' />
+          <map key='[Real Estate]' value='[industry_data_earnings.csv].[Real Estate]' />
+          <map key='[Retail (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Retail]' />
+          <map key='[Retail]' value='[industry_data_earnings.csv].[Retail]' />
+          <map key='[Total Nonfarm Employment]' value='[national_data_employees.csv].[Total Nonfarm Employment]' />
+          <map key='[Total Private Employment]' value='[national_data_employees.csv].[Total Private Employment]' />
+          <map key='[Transportation (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Transportation]' />
+          <map key='[Transportation]' value='[industry_data_earnings.csv].[Transportation]' />
+          <map key='[Utilities (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Utilities]' />
+          <map key='[Utilities]' value='[industry_data_earnings.csv].[Utilities]' />
+          <map key='[Waste Services (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Waste Services]' />
+          <map key='[Waste Services]' value='[industry_data_earnings.csv].[Waste Services]' />
+          <map key='[Wholesale_Trade (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Wholesale_Trade]' />
+          <map key='[Wholesale_Trade]' value='[industry_data_earnings.csv].[Wholesale_Trade]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[national_data_employees.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[industry_data_earnings.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[national_data_employees.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[national_data_employees.csv_A5BF88AA4EEF4943977FEDB26F7FCA36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Nonfarm Employment</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Nonfarm Employment]</local-name>
+            <parent-name>[national_data_employees.csv]</parent-name>
+            <remote-alias>Total Nonfarm Employment</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[national_data_employees.csv_A5BF88AA4EEF4943977FEDB26F7FCA36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Private Employment</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Private Employment]</local-name>
+            <parent-name>[national_data_employees.csv]</parent-name>
+            <remote-alias>Total Private Employment</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[national_data_employees.csv_A5BF88AA4EEF4943977FEDB26F7FCA36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[F1 (industry_data_earnings.csv)]</local-name>
+            <parent-name>[industry_data_earnings.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_earnings.csv_6A036FEEAACE446894A0E94EF589A448]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Utilities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Utilities]</local-name>
+            <parent-name>[industry_data_earnings.csv]</parent-name>
+            <remote-alias>Utilities</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_earnings.csv_6A036FEEAACE446894A0E94EF589A448]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Real Estate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Real Estate]</local-name>
+            <parent-name>[industry_data_earnings.csv]</parent-name>
+            <remote-alias>Real Estate</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_earnings.csv_6A036FEEAACE446894A0E94EF589A448]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wholesale_Trade</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Wholesale_Trade]</local-name>
+            <parent-name>[industry_data_earnings.csv]</parent-name>
+            <remote-alias>Wholesale_Trade</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_earnings.csv_6A036FEEAACE446894A0E94EF589A448]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Professional &amp; Technical Services</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Professional &amp; Technical Services]</local-name>
+            <parent-name>[industry_data_earnings.csv]</parent-name>
+            <remote-alias>Professional &amp; Technical Services</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_earnings.csv_6A036FEEAACE446894A0E94EF589A448]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Manufacturing</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Manufacturing]</local-name>
+            <parent-name>[industry_data_earnings.csv]</parent-name>
+            <remote-alias>Manufacturing</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_earnings.csv_6A036FEEAACE446894A0E94EF589A448]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mining &amp; Logging</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mining &amp; Logging]</local-name>
+            <parent-name>[industry_data_earnings.csv]</parent-name>
+            <remote-alias>Mining &amp; Logging</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_earnings.csv_6A036FEEAACE446894A0E94EF589A448]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Waste Services</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Waste Services]</local-name>
+            <parent-name>[industry_data_earnings.csv]</parent-name>
+            <remote-alias>Waste Services</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_earnings.csv_6A036FEEAACE446894A0E94EF589A448]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Arts, Entertainment, And Recreation</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Arts, Entertainment, And Recreation]</local-name>
+            <parent-name>[industry_data_earnings.csv]</parent-name>
+            <remote-alias>Arts, Entertainment, And Recreation</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_earnings.csv_6A036FEEAACE446894A0E94EF589A448]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accommodations &amp; Food Services</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Accommodations &amp; Food Services]</local-name>
+            <parent-name>[industry_data_earnings.csv]</parent-name>
+            <remote-alias>Accommodations &amp; Food Services</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_earnings.csv_6A036FEEAACE446894A0E94EF589A448]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Finance &amp; Insurance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Finance &amp; Insurance]</local-name>
+            <parent-name>[industry_data_earnings.csv]</parent-name>
+            <remote-alias>Finance &amp; Insurance</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_earnings.csv_6A036FEEAACE446894A0E94EF589A448]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Management of Companies &amp; Enterprises</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Management of Companies &amp; Enterprises]</local-name>
+            <parent-name>[industry_data_earnings.csv]</parent-name>
+            <remote-alias>Management of Companies &amp; Enterprises</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_earnings.csv_6A036FEEAACE446894A0E94EF589A448]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Construction</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Construction]</local-name>
+            <parent-name>[industry_data_earnings.csv]</parent-name>
+            <remote-alias>Construction</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_earnings.csv_6A036FEEAACE446894A0E94EF589A448]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Healthcare</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Healthcare]</local-name>
+            <parent-name>[industry_data_earnings.csv]</parent-name>
+            <remote-alias>Healthcare</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_earnings.csv_6A036FEEAACE446894A0E94EF589A448]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transportation</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Transportation]</local-name>
+            <parent-name>[industry_data_earnings.csv]</parent-name>
+            <remote-alias>Transportation</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_earnings.csv_6A036FEEAACE446894A0E94EF589A448]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Retail</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Retail]</local-name>
+            <parent-name>[industry_data_earnings.csv]</parent-name>
+            <remote-alias>Retail</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_earnings.csv_6A036FEEAACE446894A0E94EF589A448]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Information</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Information]</local-name>
+            <parent-name>[industry_data_earnings.csv]</parent-name>
+            <remote-alias>Information</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_earnings.csv_6A036FEEAACE446894A0E94EF589A448]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other_Services</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Other_Services]</local-name>
+            <parent-name>[industry_data_earnings.csv]</parent-name>
+            <remote-alias>Other_Services</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_earnings.csv_6A036FEEAACE446894A0E94EF589A448]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[F1 (industry_data_employees.csv)]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_431526E79EF843729A53BA1253D5A07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Utilities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Utilities (industry_data_employees.csv)]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Utilities</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_431526E79EF843729A53BA1253D5A07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Real Estate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Real Estate (industry_data_employees.csv)]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Real Estate</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_431526E79EF843729A53BA1253D5A07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wholesale_Trade</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Wholesale_Trade (industry_data_employees.csv)]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Wholesale_Trade</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_431526E79EF843729A53BA1253D5A07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Professional &amp; Technical Services</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Professional &amp; Technical Services (industry_data_employees.csv)]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Professional &amp; Technical Services</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_431526E79EF843729A53BA1253D5A07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Manufacturing</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Manufacturing (industry_data_employees.csv)]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Manufacturing</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_431526E79EF843729A53BA1253D5A07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mining &amp; Logging</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mining &amp; Logging (industry_data_employees.csv)]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Mining &amp; Logging</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_431526E79EF843729A53BA1253D5A07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Waste Services</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Waste Services (industry_data_employees.csv)]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Waste Services</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_431526E79EF843729A53BA1253D5A07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Arts, Entertainment, And Recreation</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Arts, Entertainment, And Recreation (industry_data_employees.csv)]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Arts, Entertainment, And Recreation</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_431526E79EF843729A53BA1253D5A07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accommodations &amp; Food Services</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Accommodations &amp; Food Services (industry_data_employees.csv)]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Accommodations &amp; Food Services</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_431526E79EF843729A53BA1253D5A07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Finance &amp; Insurance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Finance &amp; Insurance (industry_data_employees.csv)]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Finance &amp; Insurance</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_431526E79EF843729A53BA1253D5A07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Management of Companies &amp; Enterprises</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Management of Companies &amp; Enterprises (industry_data_employees.csv)]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Management of Companies &amp; Enterprises</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_431526E79EF843729A53BA1253D5A07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Construction</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Construction (industry_data_employees.csv)]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Construction</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_431526E79EF843729A53BA1253D5A07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Healthcare</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Healthcare (industry_data_employees.csv)]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Healthcare</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_431526E79EF843729A53BA1253D5A07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transportation</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Transportation (industry_data_employees.csv)]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Transportation</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_431526E79EF843729A53BA1253D5A07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Retail</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Retail (industry_data_employees.csv)]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Retail</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_431526E79EF843729A53BA1253D5A07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Information</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Information (industry_data_employees.csv)]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Information</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_431526E79EF843729A53BA1253D5A07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other_Services</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Other_Services (industry_data_employees.csv)]</local-name>
+            <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias>Other_Services</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_431526E79EF843729A53BA1253D5A07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Hospitality &amp; Food service (Thousands)' datatype='real' name='[Accommodations &amp; Food Services (industry_data_employees.csv)]' role='measure' type='quantitative' />
+      <column caption='Arts, Entertainment, Recreational (Thousands)' datatype='real' name='[Arts, Entertainment, And Recreation (industry_data_employees.csv)]' role='measure' type='quantitative' />
+      <column caption='Construction (Thousands)' datatype='real' name='[Construction (industry_data_employees.csv)]' role='measure' type='quantitative' />
+      <column caption='Dates' datatype='date' name='[F1 (industry_data_earnings.csv)]' role='dimension' type='ordinal' />
+      <column caption='Data Date' datatype='date' name='[F1 (industry_data_employees.csv)]' role='dimension' type='ordinal' />
+      <column caption='Date' datatype='date' name='[F1]' role='dimension' type='ordinal' />
+      <column caption='Finance &amp; Insurance (Thousands)' datatype='real' name='[Finance &amp; Insurance (industry_data_employees.csv)]' role='measure' type='quantitative' />
+      <column caption='Healthcare (Thousands)' datatype='real' name='[Healthcare (industry_data_employees.csv)]' role='measure' type='quantitative' />
+      <column caption='Information (Thousands)' datatype='real' name='[Information (industry_data_employees.csv)]' role='measure' type='quantitative' />
+      <column caption='Business Management (Thousands)' datatype='real' name='[Management of Companies &amp; Enterprises (industry_data_employees.csv)]' role='measure' type='quantitative' />
+      <column caption='Manufacturing (Thousands)' datatype='real' name='[Manufacturing (industry_data_employees.csv)]' role='measure' type='quantitative' />
+      <column caption='Mining &amp; Logging (Thousands)' datatype='real' name='[Mining &amp; Logging (industry_data_employees.csv)]' role='measure' type='quantitative' />
+      <column caption='Non-Governmental Services(Other)' datatype='real' name='[Other_Services (industry_data_employees.csv)]' role='measure' type='quantitative' />
+      <column caption='Other Services' datatype='real' name='[Other_Services]' role='measure' type='quantitative' />
+      <column caption='Professional &amp; Technical Services (Thousands)' datatype='real' name='[Professional &amp; Technical Services (industry_data_employees.csv)]' role='measure' type='quantitative' />
+      <column caption='Real Estate (Thousands)' datatype='real' name='[Real Estate (industry_data_employees.csv)]' role='measure' type='quantitative' />
+      <column caption='Retail (Thousands)' datatype='real' name='[Retail (industry_data_employees.csv)]' role='measure' type='quantitative' />
+      <column caption='Transportation &amp; Warehousing (Thousands)' datatype='real' name='[Transportation (industry_data_employees.csv)]' role='measure' type='quantitative' />
+      <column caption='Utilities (Thousands)' datatype='real' name='[Utilities (industry_data_employees.csv)]' role='measure' type='quantitative' />
+      <column caption='Waste Services (Thousands)' datatype='real' name='[Waste Services (industry_data_employees.csv)]' role='measure' type='quantitative' />
+      <column caption='Wholesale Trade (Thousands)' datatype='real' name='[Wholesale_Trade (industry_data_employees.csv)]' role='measure' type='quantitative' />
+      <column caption='Wholesale Trade' datatype='real' name='[Wholesale_Trade]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='industry_data_earnings.csv' datatype='table' name='[__tableau_internal_object_id__].[industry_data_earnings.csv_6A036FEEAACE446894A0E94EF589A448]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='industry_data_employees.csv' datatype='table' name='[__tableau_internal_object_id__].[industry_data_employees.csv_431526E79EF843729A53BA1253D5A07F]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='national_data_employees.csv' datatype='table' name='[__tableau_internal_object_id__].[national_data_employees.csv_A5BF88AA4EEF4943977FEDB26F7FCA36]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='industry_data_earnings.csv' id='industry_data_earnings.csv_6A036FEEAACE446894A0E94EF589A448'>
+            <properties context=''>
+              <relation connection='textscan.148yc4c1dxqu9y1gzo0xl0f3divy' name='industry_data_earnings.csv' table='[industry_data_earnings#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='date' name='F1' ordinal='0' />
+                  <column datatype='real' name='Utilities' ordinal='1' />
+                  <column datatype='real' name='Real Estate' ordinal='2' />
+                  <column datatype='real' name='Wholesale_Trade' ordinal='3' />
+                  <column datatype='real' name='Professional &amp; Technical Services' ordinal='4' />
+                  <column datatype='real' name='Manufacturing' ordinal='5' />
+                  <column datatype='real' name='Mining &amp; Logging' ordinal='6' />
+                  <column datatype='real' name='Waste Services' ordinal='7' />
+                  <column datatype='real' name='Arts, Entertainment, And Recreation' ordinal='8' />
+                  <column datatype='real' name='Accommodations &amp; Food Services' ordinal='9' />
+                  <column datatype='real' name='Finance &amp; Insurance' ordinal='10' />
+                  <column datatype='real' name='Management of Companies &amp; Enterprises' ordinal='11' />
+                  <column datatype='real' name='Construction' ordinal='12' />
+                  <column datatype='real' name='Healthcare' ordinal='13' />
+                  <column datatype='real' name='Transportation' ordinal='14' />
+                  <column datatype='real' name='Retail' ordinal='15' />
+                  <column datatype='real' name='Information' ordinal='16' />
+                  <column datatype='real' name='Other_Services' ordinal='17' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='industry_data_employees.csv' id='industry_data_employees.csv_431526E79EF843729A53BA1253D5A07F'>
+            <properties context=''>
+              <relation connection='textscan.148yc4c1dxqu9y1gzo0xl0f3divy' name='industry_data_employees.csv' table='[industry_data_employees#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='date' name='F1' ordinal='0' />
+                  <column datatype='real' name='Utilities' ordinal='1' />
+                  <column datatype='real' name='Real Estate' ordinal='2' />
+                  <column datatype='real' name='Wholesale_Trade' ordinal='3' />
+                  <column datatype='real' name='Professional &amp; Technical Services' ordinal='4' />
+                  <column datatype='real' name='Manufacturing' ordinal='5' />
+                  <column datatype='real' name='Mining &amp; Logging' ordinal='6' />
+                  <column datatype='real' name='Waste Services' ordinal='7' />
+                  <column datatype='real' name='Arts, Entertainment, And Recreation' ordinal='8' />
+                  <column datatype='real' name='Accommodations &amp; Food Services' ordinal='9' />
+                  <column datatype='real' name='Finance &amp; Insurance' ordinal='10' />
+                  <column datatype='real' name='Management of Companies &amp; Enterprises' ordinal='11' />
+                  <column datatype='real' name='Construction' ordinal='12' />
+                  <column datatype='real' name='Healthcare' ordinal='13' />
+                  <column datatype='real' name='Transportation' ordinal='14' />
+                  <column datatype='real' name='Retail' ordinal='15' />
+                  <column datatype='real' name='Information' ordinal='16' />
+                  <column datatype='real' name='Other_Services' ordinal='17' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='national_data_employees.csv' id='national_data_employees.csv_A5BF88AA4EEF4943977FEDB26F7FCA36'>
+            <properties context=''>
+              <relation connection='textscan.148yc4c1dxqu9y1gzo0xl0f3divy' name='national_data_employees.csv' table='[national_data_employees#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='date' name='F1' ordinal='0' />
+                  <column datatype='real' name='Total Nonfarm Employment' ordinal='1' />
+                  <column datatype='real' name='Total Private Employment' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[F1]' />
+              <expression op='[F1 (industry_data_earnings.csv)]' />
+            </expression>
+            <first-end-point object-id='national_data_employees.csv_A5BF88AA4EEF4943977FEDB26F7FCA36' />
+            <second-end-point object-id='industry_data_earnings.csv_6A036FEEAACE446894A0E94EF589A448' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[F1]' />
+              <expression op='[F1 (industry_data_employees.csv)]' />
+            </expression>
+            <first-end-point object-id='national_data_employees.csv_A5BF88AA4EEF4943977FEDB26F7FCA36' />
+            <second-end-point object-id='industry_data_employees.csv_431526E79EF843729A53BA1253D5A07F' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Nonfarm Emp'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Total Private Employment (Thousands)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='national_data_employees+' name='federated.1u97upg1etti7r142zl4k062t45m' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1u97upg1etti7r142zl4k062t45m'>
+            <column caption='Date' datatype='date' name='[F1]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Total Private Employment]' role='measure' type='quantitative' />
+            <column-instance column='[Total Private Employment]' derivation='Sum' name='[sum:Total Private Employment:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F1]' derivation='Year' name='[yr:F1:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1u97upg1etti7r142zl4k062t45m].[sum:Total Private Employment:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.1u97upg1etti7r142zl4k062t45m].[sum:Total Private Employment:qk]' />
+              <text column='[federated.1u97upg1etti7r142zl4k062t45m].[sum:Total Private Employment:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.1u97upg1etti7r142zl4k062t45m].[yr:F1:ok]</cols>
+      </table>
+      <simple-id uuid='{9EB08A1C-83BF-42DF-8867-CDD98B593CD0}' />
+    </worksheet>
+    <worksheet name='Private Emp'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Total Nonfarm Employment (Thousands)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='national_data_employees+' name='federated.1u97upg1etti7r142zl4k062t45m' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1u97upg1etti7r142zl4k062t45m'>
+            <column caption='Date' datatype='date' name='[F1]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Total Nonfarm Employment]' role='measure' type='quantitative' />
+            <column-instance column='[Total Nonfarm Employment]' derivation='Sum' name='[sum:Total Nonfarm Employment:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F1]' derivation='Year' name='[yr:F1:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1u97upg1etti7r142zl4k062t45m].[sum:Total Nonfarm Employment:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.1u97upg1etti7r142zl4k062t45m].[sum:Total Nonfarm Employment:qk]' />
+              <text column='[federated.1u97upg1etti7r142zl4k062t45m].[sum:Total Nonfarm Employment:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.1u97upg1etti7r142zl4k062t45m].[yr:F1:ok]</cols>
+      </table>
+      <simple-id uuid='{39696E06-EEAB-4D6C-8714-C163BE3EC491}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='72'>
+    <window class='worksheet' name='Nonfarm Emp'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1u97upg1etti7r142zl4k062t45m].[sum:Total Private Employment:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1u97upg1etti7r142zl4k062t45m].[yr:F1:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{145F91BB-D20D-4C2F-99E5-6A7B240FFC71}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Private Emp'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1u97upg1etti7r142zl4k062t45m].[sum:Total Nonfarm Employment:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1u97upg1etti7r142zl4k062t45m].[yr:F1:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2C670E6E-4342-4ACD-9C2E-6E2F4AE64ECC}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='64' name='Nonfarm Emp' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='64' name='Private Emp' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAABACAYAAABMbHjfAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAALQUlEQVR4nO3deXhM5wLH8a8kk4UgyYTQCLGkNJI0yyA0UrHXGvu1tNyWUrS5NxR9ruVB
+      Xa1aa7napx4SQuUSS0krCIktKjdBLUEaITSkERFplpmJc/+YIELJpJnJcN7P8+Qx551zzrs4
+      vznvmZyZ1JAkSUIQZMqsuhsgCNVJBECQNREAQdZEAARZEwEQZE0EQJA1EQBB1kQABFkTARBk
+      TQRAkDURAEHWRAAEWRMBEGRNBECQNREAQdZEAARZEwEQZE0EQJA1EQBB1kQABFkTARBkTQRA
+      kDURAEHWRAAEWRMBEGRNBECQNREAQdZEAARZEwEQZE0EQJA1EQBB1kQABFkTARBkzXQCoM0h
+      OWwqg4Pao1Kp6Bg8lbCzeY+fTtvO1OCOqFTtCXp3IbGZ2sfPFVzlSNi/mRjckZFh1x7v81oY
+      I1UqVOV/5sQbs2fGYYjxA7Q5x1n2fnc6qlSoOgYzNewsebxCJFMRN0/qHbJBOnW7WJKkYul6
+      VKgUFLRISpQkSdIkSou6B0mhUdelYqlYurTuPcl/xAYpXZIkSUqXNo0fJc3aEC+FT/eTRmxI
+      //M6NCelhUFB0uy4fGP0yLgMMn63pO8/8JNGLE+S7mgkqfh2jDS7u780eWd2NXTQMEwmAIX5
+      +ZKmbEH6BmmE3wRpW7YkScfmSf59VknnHz6nOSktDOojrTr/5D7iZj8/APf2hkr+A9ZKl6q2
+      6SbBMOMXJ832GyGVLYqb7Sf5zztmiC5UC5OZAlnXqoXFo6U8zu6M4VJLf1RKuHYlBY2vJ+4P
+      n7ZwxsUlk7T0P/So4TJbvouj9bBgXq/KhpsIw4yfHz36ZxOzM5kcLaiz9nMwQcnAXm0N1Q2j
+      s3jxKkamvszWaaGsSm3HovCRNAGuPbWSMy6uEP17NlCrQrvV/hzF1szOTO/jVKXNNTlVOn61
+      6DB9NVc/GUt3/3zAFtWn65nlZ3qHTWWZzBkAdBdqH/cdzTZlKJE7Z9HZ4c8G+iYZ6dCgnmMF
+      9/wHB7ftwm7UGLpULC8vpSofP20aYeMmkdRjPfEJiSTELMMz+n3+uet2VTe92phOAPLimf/R
+      YvJGRLBlVmcalvm/a+LWCkXSL1x4WKC9SUZGQ5q5VvBovryJb2JbM2ywuwme8qqIIcbv5hFi
+      zvvTf0BTalqAhYMP40a140TUAW4aqh9GZjIBuPnDOvY6TmDe6GZPH6RtezFQvZ11OzJQo+Zy
+      +Gp22fWhm/uz9lSelp+jtpLZeQiv8uzHIOPn2JQWdY6wa0cGakBbcJFNm+JQenvgbJhuGF0N
+      STKNvxQfP0dF6N7ypS35eHsEo5voTu8zQpdz+IaW2m/0Y9aiT+nc0EL3Xv+glVwqv2nvpSTO
+      DYS8aKb0WEy9FTHMaPvKvv4bbPzUl3fz+fxl7L94H42NA169ZrDg0yfPMC8zkwmAIFQHk5kC
+      CUJ1EAEQZE0EQJA1EQBB1l54LZ+YmGiMdghCtXhhACb+cOFFqwjPofn9lbp52Oi0uYYdPzEF
+      EmRNBECQNREAQdZEAARZM/odHQpre7q+5cFAr0bcO7CFqb88e72WXfqzMbBuudIHHNq6iekX
+      AM9O/Dy4cZnn7hG+ZherboOioTsr/vYm3nYKHuT9xvc7jrIqrUjP9tjSq19HJngoaWBlhrY4
+      n9Nxhwk5loOmdA1lM2/mD2iNqo456sIcIiP28HVGpYemQhQ2jnTv5svgNq7c2/0t/zj17PVa
+      9RvJlp725UofcPC7NUxNApumfqx43w8fpSUU5RAbGc3MhNzSvpnR1L8LS4a60dQaCu6ksWTp
+      T0TdLbe7Nu+Q/PfmT9WdFh3BoD13K9hWJZNmDmOseRLD5yaQou+A6ElR04meff0Z0sGNe5GL
+      jR0AOz4Y3p56Z04QesicOc9Z89LBXbQ9+OS2k8d5cL70rq3myloc2hquC0NZ5s7MHPIaR7ds
+      I+SWBgs7V/41JoBBaw+w/akMPKc9lrVxuHuW0OW3SC0owaamEx+OeZuQaztYfAOwd2fJIEdi
+      Nkbq6qmppJFVpQZFD0o+nNCZ+idjCdlrzrznrJmyOwKf3U9uGzLNl3NnAJrwr7GNOLF2A5My
+      1FgoXQn9qC+hWRv5Mg0UHkF817WYBQu+JfbOA+rUd0BZ/IxKTv2IzxMHtRV9x7/Dawl3K9xW
+      ZWAAnc8nc8xLn3GorPp8NKUX9Y5GMznKggUY/QyQy9r10bqHnvptqWjpgWfKaVaV6Jad7R6Q
+      cfEZKzrWw+HSaTbf0r2WaXLTmXvQlWWelmw/pa54e9SZbDryeLGw4DYHrqgZaqNb9m7XkvzY
+      vY/rKbjDlQL9+qS/O6xeFql72Ea/LRVevnidPcmKEqCBE29cv8DMDN14aO6kszTWk4VKIM2K
+      AUGvEbN5I7F3dNvmZWVX7JsgHD0ILj7DhOwKtrV2K+b6ZzFnSTZjvZT6dahSsvh6/nrdw7d0
+      /7wk1wC2jAywJOZUfumyJQ3qFpL2rA8m3cunhpcHA+3MdcsKK5rUKKFuPbtK166wrk3bdoFM
+      b/Qrm68A1MTbJZeY0+UDZarq8F43K/bFlx7Gt1KItvVlSgtLFICN0pXQdkX8dB6gAV62qexN
+      07cOMzr1asHl+KuPpogvXH/Am2TuOMm5En3rqjovQQAsGTQyAKJiy0xh1ESGHUb32m1GbQdn
+      QsYNZFZzoCiVyV8dJiq3dFQ1xaRqa6AorvzBqilRk3M7i0zL+jSvpWuTbUkNajWwobY5gDmN
+      Xvdn23gPXCpdi6FYMXRiVwjbQ+TDM5S5FbYP/iCrzLQmH1ua2wNYYlvDAruG1tgAmFvi3rU/
+      P41piuI5tfgMHkLXpP/yZYWCoyRkShBEbGXBlQeV61YVMf0AOLnTt/AcEeUvwB55wP2cm6xI
+      yKG1S/mLZgAzglrVI/XGX/iNoqaY1PQUph834702dYFczuZYUKugkPslACXcuJzCYUtHfWd2
+      hufsQ7+CZMKzy5S96UvgryfYmKFGAxTeSWfF0SK6+SmBTH65b41VVhGFACVqLhy4QEoTJ56+
+      3C1V043RjVL59lwFD2ZfFaOav8GylZNJXjOZ5DU9eNtJxZY1Iwkx8kfNTDwAZgS9VZ+jh248
+      eVp18mTpoBZ41tRNc2zsnJnR0Z7E1HuAgpaNlDgoAMxxa9eZ6Q2usPGSnq80zVsx1UNJfWvd
+      ECms7RnhXY/s+4UAnEjOJWigB37WZujOAK0IyL3B0b/Y46plRpduDTiyp9y05HoW+b7e9Kmv
+      mwIpbBx5178ht3LygXx2nrEhZKQbLpaUngHccTl/9U/foWkc2Jqi2GSuV7RZSftoM3EVPo9+
+      9hF3O5HhEyNYYeQPG7/wE2Ft54RXYXWuLJ4bSGD54ovxtP0+HZeOvVlvn0TX3Zm6cnsPNvQp
+      4pONqeUuwsxx823P3O5NaGFjjrY4l8PRh5hz+j4awKdrH75q70AdixLybv3KgvAEDpV+BY6i
+      ZQA/BmTz7roUMp/Xnn1aJvf0JriFA3Us0L0NevI4sw7eQndtaIardwcW9XLF1Up6qp6HqvZe
+      IDeWr+nB2+WLz+zD55srNO45lHDlCTpFlL4X6+jHpuGFTFp5gXvlNlF6BbB8mAce9hZoi/JI
+      PhzLZ7tvlPbNhg79ujOniwv1zdRkXjnFtNXJnCsBhVc39nfLYsSSM/wGYN6ULz5zZuvnR0nW
+      o61P9WuOkrXPeBu0au8Fcmfl5mA6lSkxcgCex5ax49qTt3k/kfp835VezAga2Jt2/9vLF9eM
+      M/c03s1wdRg/LYi8/+xiy31D1WFGlzHD8D9mvLm7fG6Gc2qGy4UTBjz4AfPGBGiTWGKkg9+o
+      nFvhknzIgAc/YN6cQM1xFlXzhWtV+j+3IZRi6888QAAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
