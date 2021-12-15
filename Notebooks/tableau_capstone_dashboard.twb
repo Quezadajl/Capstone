@@ -536,55 +536,107 @@
               <column datatype='real' name='Other_Services' ordinal='17' />
             </columns>
           </relation>
+          <relation connection='textscan.148yc4c1dxqu9y1gzo0xl0f3divy' name='nonclosure_data.csv' table='[nonclosure_data#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='F1' ordinal='0' />
+              <column datatype='real' name='Total Private Employment Percentages' ordinal='1' />
+              <column datatype='real' name='Agriculture, Forestry, Fishing and Hunting' ordinal='2' />
+              <column datatype='real' name='Mining, Quarrying, and Oil and Gas Extraction' ordinal='3' />
+              <column datatype='real' name='Utilities' ordinal='4' />
+              <column datatype='real' name='Construction' ordinal='5' />
+              <column datatype='real' name='Manufacturing' ordinal='6' />
+              <column datatype='real' name='Wholesale Trade' ordinal='7' />
+              <column datatype='real' name='Retail Trade' ordinal='8' />
+              <column datatype='real' name='Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation)' ordinal='9' />
+              <column datatype='real' name='Scheduled Air Transportation' ordinal='10' />
+              <column datatype='real' name='Truck Transportation' ordinal='11' />
+              <column datatype='real' name='Information' ordinal='12' />
+              <column datatype='real' name='Finance and Insurance' ordinal='13' />
+              <column datatype='real' name='Real Estate and Rental and Leasing ' ordinal='14' />
+              <column datatype='real' name='Professional and Technical Services' ordinal='15' />
+              <column datatype='real' name='Management of Companies and Enterprises' ordinal='16' />
+              <column datatype='real' name='Administrative and Waste Services' ordinal='17' />
+              <column datatype='real' name='Educational Services' ordinal='18' />
+              <column datatype='real' name='Health Care' ordinal='19' />
+              <column datatype='real' name='Social Assistance' ordinal='20' />
+              <column datatype='real' name='Arts, Entertainment, and Recreation' ordinal='21' />
+              <column datatype='real' name='Accommodation and Food Services' ordinal='22' />
+              <column datatype='real' name='Other Services, Except Public Administration' ordinal='23' />
+            </columns>
+          </relation>
         </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
         <cols>
+          <map key='[Accommodation and Food Services]' value='[nonclosure_data.csv].[Accommodation and Food Services]' />
           <map key='[Accommodations &amp; Food Services (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Accommodations &amp; Food Services]' />
           <map key='[Accommodations &amp; Food Services]' value='[industry_data_earnings.csv].[Accommodations &amp; Food Services]' />
+          <map key='[Administrative and Waste Services]' value='[nonclosure_data.csv].[Administrative and Waste Services]' />
+          <map key='[Agriculture, Forestry, Fishing and Hunting]' value='[nonclosure_data.csv].[Agriculture, Forestry, Fishing and Hunting]' />
           <map key='[Arts, Entertainment, And Recreation (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Arts, Entertainment, And Recreation]' />
           <map key='[Arts, Entertainment, And Recreation]' value='[industry_data_earnings.csv].[Arts, Entertainment, And Recreation]' />
+          <map key='[Arts, Entertainment, and Recreation]' value='[nonclosure_data.csv].[Arts, Entertainment, and Recreation]' />
           <map key='[Construction (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Construction]' />
+          <map key='[Construction (nonclosure_data.csv)]' value='[nonclosure_data.csv].[Construction]' />
           <map key='[Construction]' value='[industry_data_earnings.csv].[Construction]' />
+          <map key='[Educational Services]' value='[nonclosure_data.csv].[Educational Services]' />
           <map key='[Employment in establishments ]' value='[business_closure_data.csv].[Employment in establishments ]' />
           <map key='[F1 (business_closure_data.csv)]' value='[business_closure_data.csv].[F1]' />
           <map key='[F1 (industry_data_earnings.csv)]' value='[industry_data_earnings.csv].[F1]' />
           <map key='[F1 (industry_data_employees.csv)]' value='[industry_data_employees.csv].[F1]' />
+          <map key='[F1 (nonclosure_data.csv)]' value='[nonclosure_data.csv].[F1]' />
           <map key='[F1]' value='[national_data_employees.csv].[F1]' />
           <map key='[Finance &amp; Insurance (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Finance &amp; Insurance]' />
           <map key='[Finance &amp; Insurance]' value='[industry_data_earnings.csv].[Finance &amp; Insurance]' />
+          <map key='[Finance and Insurance]' value='[nonclosure_data.csv].[Finance and Insurance]' />
+          <map key='[Health Care]' value='[nonclosure_data.csv].[Health Care]' />
           <map key='[Healthcare (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Healthcare]' />
           <map key='[Healthcare]' value='[industry_data_earnings.csv].[Healthcare]' />
           <map key='[Industry]' value='[business_closure_data.csv].[Industry]' />
           <map key='[Information (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Information]' />
+          <map key='[Information (nonclosure_data.csv)]' value='[nonclosure_data.csv].[Information]' />
           <map key='[Information]' value='[industry_data_earnings.csv].[Information]' />
           <map key='[Management of Companies &amp; Enterprises (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Management of Companies &amp; Enterprises]' />
           <map key='[Management of Companies &amp; Enterprises]' value='[industry_data_earnings.csv].[Management of Companies &amp; Enterprises]' />
+          <map key='[Management of Companies and Enterprises]' value='[nonclosure_data.csv].[Management of Companies and Enterprises]' />
           <map key='[Manufacturing (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Manufacturing]' />
+          <map key='[Manufacturing (nonclosure_data.csv)]' value='[nonclosure_data.csv].[Manufacturing]' />
           <map key='[Manufacturing]' value='[industry_data_earnings.csv].[Manufacturing]' />
           <map key='[Mining &amp; Logging (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Mining &amp; Logging]' />
           <map key='[Mining &amp; Logging]' value='[industry_data_earnings.csv].[Mining &amp; Logging]' />
+          <map key='[Mining, Quarrying, and Oil and Gas Extraction]' value='[nonclosure_data.csv].[Mining, Quarrying, and Oil and Gas Extraction]' />
           <map key='[Number of establishments ]' value='[business_closure_data.csv].[Number of establishments ]' />
+          <map key='[Other Services, Except Public Administration]' value='[nonclosure_data.csv].[Other Services, Except Public Administration]' />
           <map key='[Other_Services (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Other_Services]' />
           <map key='[Other_Services]' value='[industry_data_earnings.csv].[Other_Services]' />
           <map key='[Percentage of employment In establishments ]' value='[business_closure_data.csv].[Percentage of employment In establishments ]' />
           <map key='[Percentage of establishments ]' value='[business_closure_data.csv].[Percentage of establishments ]' />
           <map key='[Professional &amp; Technical Services (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Professional &amp; Technical Services]' />
           <map key='[Professional &amp; Technical Services]' value='[industry_data_earnings.csv].[Professional &amp; Technical Services]' />
+          <map key='[Professional and Technical Services]' value='[nonclosure_data.csv].[Professional and Technical Services]' />
           <map key='[Real Estate (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Real Estate]' />
+          <map key='[Real Estate and Rental and Leasing ]' value='[nonclosure_data.csv].[Real Estate and Rental and Leasing ]' />
           <map key='[Real Estate]' value='[industry_data_earnings.csv].[Real Estate]' />
           <map key='[Retail (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Retail]' />
+          <map key='[Retail Trade]' value='[nonclosure_data.csv].[Retail Trade]' />
           <map key='[Retail]' value='[industry_data_earnings.csv].[Retail]' />
+          <map key='[Scheduled Air Transportation]' value='[nonclosure_data.csv].[Scheduled Air Transportation]' />
+          <map key='[Social Assistance]' value='[nonclosure_data.csv].[Social Assistance]' />
           <map key='[Standard error of the employment in establishments ]' value='[business_closure_data.csv].[Standard error of the employment in establishments ]' />
           <map key='[Standard error of the number of establishments ]' value='[business_closure_data.csv].[Standard error of the number of establishments ]' />
           <map key='[Standard error of the percentage of employment In establishments ]' value='[business_closure_data.csv].[Standard error of the percentage of employment In establishments ]' />
           <map key='[Standard error of the percentage of establishments ]' value='[business_closure_data.csv].[Standard error of the percentage of establishments ]' />
           <map key='[Total Nonfarm Employment]' value='[national_data_employees.csv].[Total Nonfarm Employment]' />
+          <map key='[Total Private Employment Percentages]' value='[nonclosure_data.csv].[Total Private Employment Percentages]' />
           <map key='[Total Private Employment]' value='[national_data_employees.csv].[Total Private Employment]' />
           <map key='[Transportation (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Transportation]' />
+          <map key='[Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation)]' value='[nonclosure_data.csv].[Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation)]' />
           <map key='[Transportation]' value='[industry_data_earnings.csv].[Transportation]' />
+          <map key='[Truck Transportation]' value='[nonclosure_data.csv].[Truck Transportation]' />
           <map key='[Utilities (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Utilities]' />
+          <map key='[Utilities (nonclosure_data.csv)]' value='[nonclosure_data.csv].[Utilities]' />
           <map key='[Utilities]' value='[industry_data_earnings.csv].[Utilities]' />
           <map key='[Waste Services (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Waste Services]' />
           <map key='[Waste Services]' value='[industry_data_earnings.csv].[Waste Services]' />
+          <map key='[Wholesale Trade]' value='[nonclosure_data.csv].[Wholesale Trade]' />
           <map key='[Wholesale_Trade (industry_data_employees.csv)]' value='[industry_data_employees.csv].[Wholesale_Trade]' />
           <map key='[Wholesale_Trade]' value='[industry_data_earnings.csv].[Wholesale_Trade]' />
         </cols>
@@ -641,6 +693,22 @@
             <remote-name />
             <remote-type>0</remote-type>
             <parent-name>[industry_data_employees.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[nonclosure_data.csv]</parent-name>
             <remote-alias />
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
@@ -1244,55 +1312,372 @@
             <contains-null>true</contains-null>
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[industry_data_employees.csv_431526E79EF843729A53BA1253D5A07F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F1 (nonclosure_data.csv)]</local-name>
+            <parent-name>[nonclosure_data.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Private Employment Percentages</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Private Employment Percentages]</local-name>
+            <parent-name>[nonclosure_data.csv]</parent-name>
+            <remote-alias>Total Private Employment Percentages</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Agriculture, Forestry, Fishing and Hunting</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Agriculture, Forestry, Fishing and Hunting]</local-name>
+            <parent-name>[nonclosure_data.csv]</parent-name>
+            <remote-alias>Agriculture, Forestry, Fishing and Hunting</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mining, Quarrying, and Oil and Gas Extraction</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mining, Quarrying, and Oil and Gas Extraction]</local-name>
+            <parent-name>[nonclosure_data.csv]</parent-name>
+            <remote-alias>Mining, Quarrying, and Oil and Gas Extraction</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Utilities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Utilities (nonclosure_data.csv)]</local-name>
+            <parent-name>[nonclosure_data.csv]</parent-name>
+            <remote-alias>Utilities</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Construction</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Construction (nonclosure_data.csv)]</local-name>
+            <parent-name>[nonclosure_data.csv]</parent-name>
+            <remote-alias>Construction</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Manufacturing</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Manufacturing (nonclosure_data.csv)]</local-name>
+            <parent-name>[nonclosure_data.csv]</parent-name>
+            <remote-alias>Manufacturing</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wholesale Trade</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Wholesale Trade]</local-name>
+            <parent-name>[nonclosure_data.csv]</parent-name>
+            <remote-alias>Wholesale Trade</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Retail Trade</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Retail Trade]</local-name>
+            <parent-name>[nonclosure_data.csv]</parent-name>
+            <remote-alias>Retail Trade</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation)]</local-name>
+            <parent-name>[nonclosure_data.csv]</parent-name>
+            <remote-alias>Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation)</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Scheduled Air Transportation</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Scheduled Air Transportation]</local-name>
+            <parent-name>[nonclosure_data.csv]</parent-name>
+            <remote-alias>Scheduled Air Transportation</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Truck Transportation</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Truck Transportation]</local-name>
+            <parent-name>[nonclosure_data.csv]</parent-name>
+            <remote-alias>Truck Transportation</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Information</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Information (nonclosure_data.csv)]</local-name>
+            <parent-name>[nonclosure_data.csv]</parent-name>
+            <remote-alias>Information</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Finance and Insurance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Finance and Insurance]</local-name>
+            <parent-name>[nonclosure_data.csv]</parent-name>
+            <remote-alias>Finance and Insurance</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Real Estate and Rental and Leasing </remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Real Estate and Rental and Leasing ]</local-name>
+            <parent-name>[nonclosure_data.csv]</parent-name>
+            <remote-alias>Real Estate and Rental and Leasing </remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Professional and Technical Services</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Professional and Technical Services]</local-name>
+            <parent-name>[nonclosure_data.csv]</parent-name>
+            <remote-alias>Professional and Technical Services</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Management of Companies and Enterprises</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Management of Companies and Enterprises]</local-name>
+            <parent-name>[nonclosure_data.csv]</parent-name>
+            <remote-alias>Management of Companies and Enterprises</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Administrative and Waste Services</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Administrative and Waste Services]</local-name>
+            <parent-name>[nonclosure_data.csv]</parent-name>
+            <remote-alias>Administrative and Waste Services</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Educational Services</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Educational Services]</local-name>
+            <parent-name>[nonclosure_data.csv]</parent-name>
+            <remote-alias>Educational Services</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Health Care</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Health Care]</local-name>
+            <parent-name>[nonclosure_data.csv]</parent-name>
+            <remote-alias>Health Care</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Social Assistance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Social Assistance]</local-name>
+            <parent-name>[nonclosure_data.csv]</parent-name>
+            <remote-alias>Social Assistance</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Arts, Entertainment, and Recreation</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Arts, Entertainment, and Recreation]</local-name>
+            <parent-name>[nonclosure_data.csv]</parent-name>
+            <remote-alias>Arts, Entertainment, and Recreation</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accommodation and Food Services</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Accommodation and Food Services]</local-name>
+            <parent-name>[nonclosure_data.csv]</parent-name>
+            <remote-alias>Accommodation and Food Services</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other Services, Except Public Administration</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Other Services, Except Public Administration]</local-name>
+            <parent-name>[nonclosure_data.csv]</parent-name>
+            <remote-alias>Other Services, Except Public Administration</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
         </metadata-records>
       </connection>
       <aliases enabled='yes' />
+      <column datatype='real' name='[Accommodation and Food Services]' role='measure' type='quantitative' />
       <column caption='Hospitality &amp; Food service (Thousands)' datatype='real' name='[Accommodations &amp; Food Services (industry_data_employees.csv)]' role='measure' type='quantitative' />
       <column caption='Hospitality &amp; Food Services (AVG Hourly Earnings)' datatype='real' name='[Accommodations &amp; Food Services]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Administrative and Waste Services]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Agriculture, Forestry, Fishing and Hunting]' role='measure' type='quantitative' />
       <column caption='Arts, Entertainment, Recreational (Thousands)' datatype='real' name='[Arts, Entertainment, And Recreation (industry_data_employees.csv)]' role='measure' type='quantitative' />
       <column caption='Arts, Entertainment, And Recreation (AVG Hourly Earnings)' datatype='real' name='[Arts, Entertainment, And Recreation]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Arts, Entertainment, and Recreation]' role='measure' type='quantitative' />
       <column caption='Construction (Thousands)' datatype='real' name='[Construction (industry_data_employees.csv)]' role='measure' type='quantitative' />
+      <column caption='Construction (nonclosure data.csv)' datatype='real' name='[Construction (nonclosure_data.csv)]' role='measure' type='quantitative' />
       <column caption='Construction (AVG Hourly Earnings)' datatype='real' name='[Construction]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Educational Services]' role='measure' type='quantitative' />
       <column datatype='integer' name='[Employment in establishments ]' role='measure' type='quantitative' />
-      <column caption='Total Private Employment Percentages' datatype='real' name='[F1 (business_closure_data.csv)]' role='dimension' type='ordinal' />
+      <column caption='Total Private Employment Percentages' datatype='real' hidden='true' name='[F1 (business_closure_data.csv)]' role='dimension' type='ordinal' />
       <column caption='Dates' datatype='date' name='[F1 (industry_data_earnings.csv)]' role='dimension' type='ordinal' />
       <column caption='Data Date' datatype='date' name='[F1 (industry_data_employees.csv)]' role='dimension' type='ordinal' />
+      <column caption='F1 (nonclosure data.csv)' datatype='string' name='[F1 (nonclosure_data.csv)]' role='dimension' type='nominal' />
       <column caption='Date' datatype='date' name='[F1]' role='dimension' type='ordinal' />
       <column caption='Finance &amp; Insurance (Thousands)' datatype='real' name='[Finance &amp; Insurance (industry_data_employees.csv)]' role='measure' type='quantitative' />
       <column caption='Finance &amp; Insurance (AVG Hourly Earnings)' datatype='real' name='[Finance &amp; Insurance]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Finance and Insurance]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Health Care]' role='measure' type='quantitative' />
       <column caption='Healthcare &amp; Education (Thousands)' datatype='real' name='[Healthcare (industry_data_employees.csv)]' role='measure' type='quantitative' />
       <column caption='Healthcare &amp; Education (AVG Hourly Earnings)' datatype='real' name='[Healthcare]' role='measure' type='quantitative' />
       <column caption='Information (Thousands)' datatype='real' name='[Information (industry_data_employees.csv)]' role='measure' type='quantitative' />
+      <column caption='Information (nonclosure data.csv)' datatype='real' name='[Information (nonclosure_data.csv)]' role='measure' type='quantitative' />
       <column caption='Information (AVG Hourly Earnings)' datatype='real' name='[Information]' role='measure' type='quantitative' />
       <column caption='Business Management (Thousands)' datatype='real' name='[Management of Companies &amp; Enterprises (industry_data_employees.csv)]' role='measure' type='quantitative' />
       <column caption='Business Management (AVG Hourly Earnings)' datatype='real' name='[Management of Companies &amp; Enterprises]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Management of Companies and Enterprises]' role='measure' type='quantitative' />
       <column caption='Manufacturing (Thousands)' datatype='real' name='[Manufacturing (industry_data_employees.csv)]' role='measure' type='quantitative' />
+      <column caption='Manufacturing (nonclosure data.csv)' datatype='real' name='[Manufacturing (nonclosure_data.csv)]' role='measure' type='quantitative' />
       <column caption='Manufacturing (AVG Hourly Earnings)' datatype='real' name='[Manufacturing]' role='measure' type='quantitative' />
       <column caption='Mining &amp; Logging (Thousands)' datatype='real' name='[Mining &amp; Logging (industry_data_employees.csv)]' role='measure' type='quantitative' />
       <column caption='Mining &amp; Logging (AVG Hourly Earnings)' datatype='real' name='[Mining &amp; Logging]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Mining, Quarrying, and Oil and Gas Extraction]' role='measure' type='quantitative' />
       <column datatype='integer' name='[Number of establishments ]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Other Services, Except Public Administration]' role='measure' type='quantitative' />
       <column caption='Non-Governmental Services(Other)' datatype='real' name='[Other_Services (industry_data_employees.csv)]' role='measure' type='quantitative' />
       <column caption='Non-Governmental services (Other)' datatype='real' name='[Other_Services]' role='measure' type='quantitative' />
       <column datatype='real' name='[Percentage of employment In establishments ]' role='measure' type='quantitative' />
       <column caption='Professional &amp; Technical Services (Thousands)' datatype='real' name='[Professional &amp; Technical Services (industry_data_employees.csv)]' role='measure' type='quantitative' />
       <column caption='Professional &amp; Technical Services (AVG Hourly Earnings)' datatype='real' name='[Professional &amp; Technical Services]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Professional and Technical Services]' role='measure' type='quantitative' />
       <column caption='Real Estate (Thousands)' datatype='real' name='[Real Estate (industry_data_employees.csv)]' role='measure' type='quantitative' />
+      <column caption='Real Estate and Rental and Leasing' datatype='real' name='[Real Estate and Rental and Leasing ]' role='measure' type='quantitative' />
       <column caption='Real Estate (AVG Hourly Earnings)' datatype='real' name='[Real Estate]' role='measure' type='quantitative' />
       <column caption='Retail (Thousands)' datatype='real' name='[Retail (industry_data_employees.csv)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Retail Trade]' role='measure' type='quantitative' />
       <column caption='Retail (AVG Hourly Earnings)' datatype='real' name='[Retail]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Scheduled Air Transportation]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Social Assistance]' role='measure' type='quantitative' />
       <column datatype='real' name='[Total Nonfarm Employment]' role='measure' type='quantitative' />
+      <column caption='Total Private Employment Percentages1' datatype='real' name='[Total Private Employment Percentages]' role='measure' type='quantitative' />
       <column datatype='real' name='[Total Private Employment]' role='measure' type='quantitative' />
       <column caption='Transportation &amp; Warehousing (Thousands)' datatype='real' name='[Transportation (industry_data_employees.csv)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation)]' role='measure' type='quantitative' />
       <column caption='Transportation (AVG Hourly Earnings)' datatype='real' name='[Transportation]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Truck Transportation]' role='measure' type='quantitative' />
       <column caption='Utilities (Thousands)' datatype='real' name='[Utilities (industry_data_employees.csv)]' role='measure' type='quantitative' />
+      <column caption='Utilities (nonclosure data.csv)' datatype='real' name='[Utilities (nonclosure_data.csv)]' role='measure' type='quantitative' />
       <column caption='Utilities (AVG Hourly Earnings)' datatype='real' name='[Utilities]' role='measure' type='quantitative' />
       <column caption='Waste Services (Thousands)' datatype='real' name='[Waste Services (industry_data_employees.csv)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Wholesale Trade]' role='measure' type='quantitative' />
       <column caption='Wholesale Trade (Thousands)' datatype='real' name='[Wholesale_Trade (industry_data_employees.csv)]' role='measure' type='quantitative' />
       <column caption='Wholesale Trade (AVG Hourly Earnings)' datatype='real' name='[Wholesale_Trade]' role='measure' type='quantitative' />
       <_.fcp.ObjectModelTableType.true...column caption='business_closure_data.csv' datatype='table' name='[__tableau_internal_object_id__].[business_closure_data.csv_C1FF1B1237A542FBBDF72F801AD7F800]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='business_nonclosure_data.csv' datatype='table' name='[__tableau_internal_object_id__].[business_nonclosure_data.csv_C46BCE8F6EFC4F79BF10283050FEC3C6]' role='measure' type='quantitative' />
       <_.fcp.ObjectModelTableType.true...column caption='industry_data_earnings.csv' datatype='table' name='[__tableau_internal_object_id__].[industry_data_earnings.csv_6A036FEEAACE446894A0E94EF589A448]' role='measure' type='quantitative' />
       <_.fcp.ObjectModelTableType.true...column caption='industry_data_employees.csv' datatype='table' name='[__tableau_internal_object_id__].[industry_data_employees.csv_431526E79EF843729A53BA1253D5A07F]' role='measure' type='quantitative' />
       <_.fcp.ObjectModelTableType.true...column caption='national_data_employees.csv' datatype='table' name='[__tableau_internal_object_id__].[national_data_employees.csv_A5BF88AA4EEF4943977FEDB26F7FCA36]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='nonclosure_data.csv' datatype='table' name='[__tableau_internal_object_id__].[nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE]' role='measure' type='quantitative' />
       <column-instance column='[__tableau_internal_object_id__].[national_data_employees.csv_A5BF88AA4EEF4943977FEDB26F7FCA36]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:national_data_employees.csv_A5BF88AA4EEF4943977FEDB26F7FCA36:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
       <column-instance column='[Total Nonfarm Employment]' derivation='Sum' name='[pcto:sum:Total Nonfarm Employment:qk]' pivot='key' type='quantitative'>
@@ -1301,27 +1686,50 @@
       <column-instance column='[Total Private Employment]' derivation='Sum' name='[pcto:sum:Total Private Employment:qk]' pivot='key' type='quantitative'>
         <table-calc ordering-type='Table' type='PctTotal' />
       </column-instance>
+      <column-instance column='[Accommodation and Food Services]' derivation='Sum' name='[sum:Accommodation and Food Services:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Accommodations &amp; Food Services (industry_data_employees.csv)]' derivation='Sum' name='[sum:Accommodations &amp; Food Services (industry_data_employees.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Administrative and Waste Services]' derivation='Sum' name='[sum:Administrative and Waste Services:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Agriculture, Forestry, Fishing and Hunting]' derivation='Sum' name='[sum:Agriculture, Forestry, Fishing and Hunting:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Arts, Entertainment, And Recreation (industry_data_employees.csv)]' derivation='Sum' name='[sum:Arts, Entertainment, And Recreation (industry_data_employees.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Arts, Entertainment, and Recreation]' derivation='Sum' name='[sum:Arts, Entertainment, and Recreation:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Construction (industry_data_employees.csv)]' derivation='Sum' name='[sum:Construction (industry_data_employees.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Construction (nonclosure_data.csv)]' derivation='Sum' name='[sum:Construction (nonclosure_data.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Educational Services]' derivation='Sum' name='[sum:Educational Services:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Employment in establishments ]' derivation='Sum' name='[sum:Employment in establishments :qk]' pivot='key' type='quantitative' />
       <column-instance column='[Finance &amp; Insurance (industry_data_employees.csv)]' derivation='Sum' name='[sum:Finance &amp; Insurance (industry_data_employees.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Finance and Insurance]' derivation='Sum' name='[sum:Finance and Insurance:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Health Care]' derivation='Sum' name='[sum:Health Care:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Healthcare (industry_data_employees.csv)]' derivation='Sum' name='[sum:Healthcare (industry_data_employees.csv):qk]' pivot='key' type='quantitative' />
       <column-instance column='[Information (industry_data_employees.csv)]' derivation='Sum' name='[sum:Information (industry_data_employees.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Information (nonclosure_data.csv)]' derivation='Sum' name='[sum:Information (nonclosure_data.csv):qk]' pivot='key' type='quantitative' />
       <column-instance column='[Management of Companies &amp; Enterprises (industry_data_employees.csv)]' derivation='Sum' name='[sum:Management of Companies &amp; Enterprises (industry_data_employees.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Management of Companies and Enterprises]' derivation='Sum' name='[sum:Management of Companies and Enterprises:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Manufacturing (industry_data_employees.csv)]' derivation='Sum' name='[sum:Manufacturing (industry_data_employees.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Manufacturing (nonclosure_data.csv)]' derivation='Sum' name='[sum:Manufacturing (nonclosure_data.csv):qk]' pivot='key' type='quantitative' />
       <column-instance column='[Mining &amp; Logging (industry_data_employees.csv)]' derivation='Sum' name='[sum:Mining &amp; Logging (industry_data_employees.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Mining, Quarrying, and Oil and Gas Extraction]' derivation='Sum' name='[sum:Mining, Quarrying, and Oil and Gas Extraction:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Number of establishments ]' derivation='Sum' name='[sum:Number of establishments :qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Other Services, Except Public Administration]' derivation='Sum' name='[sum:Other Services, Except Public Administration:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Other_Services (industry_data_employees.csv)]' derivation='Sum' name='[sum:Other_Services (industry_data_employees.csv):qk]' pivot='key' type='quantitative' />
       <column-instance column='[Percentage of employment In establishments ]' derivation='Sum' name='[sum:Percentage of employment In establishments :qk]' pivot='key' type='quantitative' />
       <column-instance column='[Professional &amp; Technical Services (industry_data_employees.csv)]' derivation='Sum' name='[sum:Professional &amp; Technical Services (industry_data_employees.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Professional and Technical Services]' derivation='Sum' name='[sum:Professional and Technical Services:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Real Estate (industry_data_employees.csv)]' derivation='Sum' name='[sum:Real Estate (industry_data_employees.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Real Estate and Rental and Leasing ]' derivation='Sum' name='[sum:Real Estate and Rental and Leasing :qk]' pivot='key' type='quantitative' />
       <column-instance column='[Retail (industry_data_employees.csv)]' derivation='Sum' name='[sum:Retail (industry_data_employees.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Retail Trade]' derivation='Sum' name='[sum:Retail Trade:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Scheduled Air Transportation]' derivation='Sum' name='[sum:Scheduled Air Transportation:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Social Assistance]' derivation='Sum' name='[sum:Social Assistance:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Total Nonfarm Employment]' derivation='Sum' name='[sum:Total Nonfarm Employment:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Total Private Employment Percentages]' derivation='Sum' name='[sum:Total Private Employment Percentages:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Total Private Employment]' derivation='Sum' name='[sum:Total Private Employment:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Transportation (industry_data_employees.csv)]' derivation='Sum' name='[sum:Transportation (industry_data_employees.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation)]' derivation='Sum' name='[sum:Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Truck Transportation]' derivation='Sum' name='[sum:Truck Transportation:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Utilities (industry_data_employees.csv)]' derivation='Sum' name='[sum:Utilities (industry_data_employees.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Utilities (nonclosure_data.csv)]' derivation='Sum' name='[sum:Utilities (nonclosure_data.csv):qk]' pivot='key' type='quantitative' />
       <column-instance column='[Waste Services (industry_data_employees.csv)]' derivation='Sum' name='[sum:Waste Services (industry_data_employees.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Wholesale Trade]' derivation='Sum' name='[sum:Wholesale Trade:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Wholesale_Trade (industry_data_employees.csv)]' derivation='Sum' name='[sum:Wholesale_Trade (industry_data_employees.csv):qk]' pivot='key' type='quantitative' />
       <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
       <style>
@@ -1329,6 +1737,9 @@
           <encoding attr='color' field='[:Measure Names]' type='palette'>
             <map to='#499894'>
               <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Educational Services:qk]&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Information (nonclosure_data.csv):qk]&quot;</bucket>
             </map>
             <map to='#499894'>
               <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Mining &amp; Logging (industry_data_employees.csv):qk]&quot;</bucket>
@@ -1347,6 +1758,9 @@
             </map>
             <map to='#59a14f'>
               <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[__tableau_internal_object_id__].[cnt:national_data_employees.csv_A5BF88AA4EEF4943977FEDB26F7FCA36:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Construction (nonclosure_data.csv):qk]&quot;</bucket>
             </map>
             <map to='#59a14f'>
               <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Healthcare (industry_data_employees.csv):qk]&quot;</bucket>
@@ -1379,6 +1793,9 @@
               <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[fVal:sum:Total Nonfarm Employment (national_data_employees_15_19.csv):qk]&quot;</bucket>
             </map>
             <map to='#9d7660'>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Total Private Employment Percentages:qk]&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
               <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation):qk]&quot;</bucket>
             </map>
             <map to='#a0cbe8'>
@@ -1386,6 +1803,9 @@
             </map>
             <map to='#a0cbe8'>
               <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Management of Companies &amp; Enterprises (industry_data_employees.csv):qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Utilities (nonclosure_data.csv):qk]&quot;</bucket>
             </map>
             <map to='#a0cbe8'>
               <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Wholesale Trade:qk]&quot;</bucket>
@@ -1434,6 +1854,9 @@
             </map>
             <map to='#e15759'>
               <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Manufacturing (business_closure_data.csv):qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Manufacturing (nonclosure_data.csv):qk]&quot;</bucket>
             </map>
             <map to='#e15759'>
               <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Percentage of employment In establishments :qk]&quot;</bucket>
@@ -1580,6 +2003,38 @@
               </relation>
             </properties>
           </object>
+          <object caption='nonclosure_data.csv' id='nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE'>
+            <properties context=''>
+              <relation connection='textscan.148yc4c1dxqu9y1gzo0xl0f3divy' name='nonclosure_data.csv' table='[nonclosure_data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='F1' ordinal='0' />
+                  <column datatype='real' name='Total Private Employment Percentages' ordinal='1' />
+                  <column datatype='real' name='Agriculture, Forestry, Fishing and Hunting' ordinal='2' />
+                  <column datatype='real' name='Mining, Quarrying, and Oil and Gas Extraction' ordinal='3' />
+                  <column datatype='real' name='Utilities' ordinal='4' />
+                  <column datatype='real' name='Construction' ordinal='5' />
+                  <column datatype='real' name='Manufacturing' ordinal='6' />
+                  <column datatype='real' name='Wholesale Trade' ordinal='7' />
+                  <column datatype='real' name='Retail Trade' ordinal='8' />
+                  <column datatype='real' name='Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation)' ordinal='9' />
+                  <column datatype='real' name='Scheduled Air Transportation' ordinal='10' />
+                  <column datatype='real' name='Truck Transportation' ordinal='11' />
+                  <column datatype='real' name='Information' ordinal='12' />
+                  <column datatype='real' name='Finance and Insurance' ordinal='13' />
+                  <column datatype='real' name='Real Estate and Rental and Leasing ' ordinal='14' />
+                  <column datatype='real' name='Professional and Technical Services' ordinal='15' />
+                  <column datatype='real' name='Management of Companies and Enterprises' ordinal='16' />
+                  <column datatype='real' name='Administrative and Waste Services' ordinal='17' />
+                  <column datatype='real' name='Educational Services' ordinal='18' />
+                  <column datatype='real' name='Health Care' ordinal='19' />
+                  <column datatype='real' name='Social Assistance' ordinal='20' />
+                  <column datatype='real' name='Arts, Entertainment, and Recreation' ordinal='21' />
+                  <column datatype='real' name='Accommodation and Food Services' ordinal='22' />
+                  <column datatype='real' name='Other Services, Except Public Administration' ordinal='23' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
         </objects>
         <relationships>
           <relationship>
@@ -1605,6 +2060,14 @@
             </expression>
             <first-end-point object-id='national_data_employees.csv_A5BF88AA4EEF4943977FEDB26F7FCA36' />
             <second-end-point object-id='industry_data_employees.csv_431526E79EF843729A53BA1253D5A07F' />
+          </relationship>
+          <relationship>
+            <expression _.fcp.InequalityRelationships.false...op='=' _.fcp.InequalityRelationships.true...op='&lt;&gt;'>
+              <expression _.fcp.InequalityRelationships.false...op='[Total Private Employment &lt;&gt; Total Private Employment Percentages]' _.fcp.InequalityRelationships.true...op='[Total Private Employment]' />
+              <expression _.fcp.InequalityRelationships.false...op='[]' _.fcp.InequalityRelationships.true...op='[Total Private Employment Percentages]' />
+            </expression>
+            <first-end-point object-id='national_data_employees.csv_A5BF88AA4EEF4943977FEDB26F7FCA36' />
+            <second-end-point object-id='nonclosure_data.csv_375A666C726B49FCB5CE39B34D4E6DFE' />
           </relationship>
         </relationships>
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
@@ -1866,11 +2329,74 @@
       </table>
       <simple-id uuid='{9EB08A1C-83BF-42DF-8867-CDD98B593CD0}' />
     </worksheet>
-    <worksheet name='Percent of gov-mandate clos'>
+    <worksheet name='Private Emp'>
       <layout-options>
         <title>
           <formatted-text>
-            <run>Percent of establishments that experienced gov-mandated closures</run>
+            <run>Total Nonfarm Employment (Thousands)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='national_data_employees+' name='federated.1u97upg1etti7r142zl4k062t45m' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1u97upg1etti7r142zl4k062t45m'>
+            <column caption='Date' datatype='date' name='[F1]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Total Nonfarm Employment]' role='measure' type='quantitative' />
+            <column-instance column='[Total Nonfarm Employment]' derivation='Sum' name='[sum:Total Nonfarm Employment:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F1]' derivation='Year' name='[yr:F1:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1u97upg1etti7r142zl4k062t45m].[yr:F1:ok]'>
+            <groupfilter function='member' level='[yr:F1:ok]' member='2021' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1u97upg1etti7r142zl4k062t45m].[yr:F1:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1u97upg1etti7r142zl4k062t45m].[sum:Total Nonfarm Employment:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.1u97upg1etti7r142zl4k062t45m].[sum:Total Nonfarm Employment:qk]' />
+              <text column='[federated.1u97upg1etti7r142zl4k062t45m].[sum:Total Nonfarm Employment:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.1u97upg1etti7r142zl4k062t45m].[yr:F1:ok]</cols>
+      </table>
+      <simple-id uuid='{39696E06-EEAB-4D6C-8714-C163BE3EC491}' />
+    </worksheet>
+    <worksheet name='gov-mandate closure'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Establishments that experienced a government-mandated closure of this business, by industry*</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -1934,11 +2460,12 @@
       </table>
       <simple-id uuid='{A9DD2ED5-E760-4D95-9680-29C36FC6EA12}' />
     </worksheet>
-    <worksheet name='Private Emp'>
+    <worksheet name='no impact  from closures'>
       <layout-options>
         <title>
           <formatted-text>
-            <run>Total Nonfarm Employment (Thousands)</run>
+            <run>Establishments that experienced no impact on their business operations, by industry*
+*Detail may not sum to total due to rounding</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -1948,22 +2475,102 @@
             <datasource caption='national_data_employees+' name='federated.1u97upg1etti7r142zl4k062t45m' />
           </datasources>
           <datasource-dependencies datasource='federated.1u97upg1etti7r142zl4k062t45m'>
-            <column caption='Date' datatype='date' name='[F1]' role='dimension' type='ordinal' />
-            <column datatype='real' name='[Total Nonfarm Employment]' role='measure' type='quantitative' />
-            <column-instance column='[Total Nonfarm Employment]' derivation='Sum' name='[sum:Total Nonfarm Employment:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[F1]' derivation='Year' name='[yr:F1:ok]' pivot='key' type='ordinal' />
+            <column datatype='real' name='[Accommodation and Food Services]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Administrative and Waste Services]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Agriculture, Forestry, Fishing and Hunting]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Arts, Entertainment, and Recreation]' role='measure' type='quantitative' />
+            <column caption='Construction (nonclosure data.csv)' datatype='real' name='[Construction (nonclosure_data.csv)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Educational Services]' role='measure' type='quantitative' />
+            <column caption='F1 (nonclosure data.csv)' datatype='string' name='[F1 (nonclosure_data.csv)]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Finance and Insurance]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Health Care]' role='measure' type='quantitative' />
+            <column caption='Information (nonclosure data.csv)' datatype='real' name='[Information (nonclosure_data.csv)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Management of Companies and Enterprises]' role='measure' type='quantitative' />
+            <column caption='Manufacturing (nonclosure data.csv)' datatype='real' name='[Manufacturing (nonclosure_data.csv)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Mining, Quarrying, and Oil and Gas Extraction]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Other Services, Except Public Administration]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Professional and Technical Services]' role='measure' type='quantitative' />
+            <column caption='Real Estate and Rental and Leasing' datatype='real' name='[Real Estate and Rental and Leasing ]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Retail Trade]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Scheduled Air Transportation]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Social Assistance]' role='measure' type='quantitative' />
+            <column caption='Total Private Employment Percentages1' datatype='real' name='[Total Private Employment Percentages]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Truck Transportation]' role='measure' type='quantitative' />
+            <column caption='Utilities (nonclosure data.csv)' datatype='real' name='[Utilities (nonclosure_data.csv)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Wholesale Trade]' role='measure' type='quantitative' />
+            <column-instance column='[F1 (nonclosure_data.csv)]' derivation='None' name='[none:F1 (nonclosure_data.csv):nk]' pivot='key' type='nominal' />
+            <column-instance column='[Accommodation and Food Services]' derivation='Sum' name='[sum:Accommodation and Food Services:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Administrative and Waste Services]' derivation='Sum' name='[sum:Administrative and Waste Services:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Agriculture, Forestry, Fishing and Hunting]' derivation='Sum' name='[sum:Agriculture, Forestry, Fishing and Hunting:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Arts, Entertainment, and Recreation]' derivation='Sum' name='[sum:Arts, Entertainment, and Recreation:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Construction (nonclosure_data.csv)]' derivation='Sum' name='[sum:Construction (nonclosure_data.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Educational Services]' derivation='Sum' name='[sum:Educational Services:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Finance and Insurance]' derivation='Sum' name='[sum:Finance and Insurance:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Health Care]' derivation='Sum' name='[sum:Health Care:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Information (nonclosure_data.csv)]' derivation='Sum' name='[sum:Information (nonclosure_data.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Management of Companies and Enterprises]' derivation='Sum' name='[sum:Management of Companies and Enterprises:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Manufacturing (nonclosure_data.csv)]' derivation='Sum' name='[sum:Manufacturing (nonclosure_data.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Mining, Quarrying, and Oil and Gas Extraction]' derivation='Sum' name='[sum:Mining, Quarrying, and Oil and Gas Extraction:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Other Services, Except Public Administration]' derivation='Sum' name='[sum:Other Services, Except Public Administration:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Professional and Technical Services]' derivation='Sum' name='[sum:Professional and Technical Services:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Real Estate and Rental and Leasing ]' derivation='Sum' name='[sum:Real Estate and Rental and Leasing :qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Retail Trade]' derivation='Sum' name='[sum:Retail Trade:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Scheduled Air Transportation]' derivation='Sum' name='[sum:Scheduled Air Transportation:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Social Assistance]' derivation='Sum' name='[sum:Social Assistance:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total Private Employment Percentages]' derivation='Sum' name='[sum:Total Private Employment Percentages:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation)]' derivation='Sum' name='[sum:Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Truck Transportation]' derivation='Sum' name='[sum:Truck Transportation:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Utilities (nonclosure_data.csv)]' derivation='Sum' name='[sum:Utilities (nonclosure_data.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Wholesale Trade]' derivation='Sum' name='[sum:Wholesale Trade:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
-          <filter class='categorical' column='[federated.1u97upg1etti7r142zl4k062t45m].[yr:F1:ok]'>
-            <groupfilter function='member' level='[yr:F1:ok]' member='2021' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          <filter class='categorical' column='[federated.1u97upg1etti7r142zl4k062t45m].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Accommodation and Food Services:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Administrative and Waste Services:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Agriculture, Forestry, Fishing and Hunting:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Arts, Entertainment, and Recreation:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Construction (nonclosure_data.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Educational Services:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Finance and Insurance:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Health Care:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Information (nonclosure_data.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Management of Companies and Enterprises:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Manufacturing (nonclosure_data.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Mining, Quarrying, and Oil and Gas Extraction:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Other Services, Except Public Administration:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Professional and Technical Services:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Real Estate and Rental and Leasing :qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Retail Trade:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Scheduled Air Transportation:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Social Assistance:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Total Private Employment Percentages:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Truck Transportation:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Utilities (nonclosure_data.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Wholesale Trade:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1u97upg1etti7r142zl4k062t45m].[none:F1 (nonclosure_data.csv):nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:F1 (nonclosure_data.csv):nk]' member='&quot;Employment in  businesses&quot;' />
+              <groupfilter function='member' level='[none:F1 (nonclosure_data.csv):nk]' member='&quot;Number of  businesses&quot;' />
+              <groupfilter function='member' level='[none:F1 (nonclosure_data.csv):nk]' member='&quot;Percentage of businesses&quot;' />
+            </groupfilter>
           </filter>
           <slices>
-            <column>[federated.1u97upg1etti7r142zl4k062t45m].[yr:F1:ok]</column>
+            <column>[federated.1u97upg1etti7r142zl4k062t45m].[none:F1 (nonclosure_data.csv):nk]</column>
+            <column>[federated.1u97upg1etti7r142zl4k062t45m].[:Measure Names]</column>
           </slices>
           <aggregation value='true' />
         </view>
         <style>
-          <style-rule element='mark'>
-            <encoding attr='size-bar' field='[federated.1u97upg1etti7r142zl4k062t45m].[sum:Total Nonfarm Employment:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1u97upg1etti7r142zl4k062t45m].[:Measure Names]' value='27' />
+            <format attr='width' field='[federated.1u97upg1etti7r142zl4k062t45m].[none:F1 (nonclosure_data.csv):nk]' value='185' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
           </style-rule>
         </style>
         <panes>
@@ -1971,31 +2578,27 @@
             <view>
               <breakdown value='auto' />
             </view>
-            <mark class='Square' />
+            <mark class='Automatic' />
             <encodings>
-              <color column='[federated.1u97upg1etti7r142zl4k062t45m].[sum:Total Nonfarm Employment:qk]' />
-              <text column='[federated.1u97upg1etti7r142zl4k062t45m].[sum:Total Nonfarm Employment:qk]' />
+              <text column='[federated.1u97upg1etti7r142zl4k062t45m].[Multiple Values]' />
             </encodings>
             <style>
               <style-rule element='mark'>
-                <format attr='has-stroke' value='false' />
                 <format attr='mark-labels-show' value='true' />
-                <format attr='mark-labels-cull' value='true' />
-                <format attr='mark-labels-line-first' value='true' />
-                <format attr='mark-labels-line-last' value='true' />
-                <format attr='mark-labels-range-min' value='true' />
-                <format attr='mark-labels-range-max' value='true' />
-                <format attr='mark-labels-mode' value='all' />
-                <format attr='mark-labels-range-scope' value='pane' />
-                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
               </style-rule>
             </style>
           </pane>
         </panes>
-        <rows />
-        <cols>[federated.1u97upg1etti7r142zl4k062t45m].[yr:F1:ok]</cols>
+        <rows>[federated.1u97upg1etti7r142zl4k062t45m].[:Measure Names]</rows>
+        <cols>[federated.1u97upg1etti7r142zl4k062t45m].[none:F1 (nonclosure_data.csv):nk]</cols>
       </table>
-      <simple-id uuid='{39696E06-EEAB-4D6C-8714-C163BE3EC491}' />
+      <simple-id uuid='{4BEC4ECF-9B3C-40EA-89EE-C73DAE1E5C26}' />
     </worksheet>
   </worksheets>
   <windows source-height='72'>
@@ -2106,7 +2709,7 @@
       </viewpoint>
       <simple-id uuid='{CF0A84D0-A340-4EB4-BB9F-43ED80ED6552}' />
     </window>
-    <window class='worksheet' name='Percent of gov-mandate clos'>
+    <window class='worksheet' name='gov-mandate closure'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -2145,7 +2748,39 @@
       </viewpoint>
       <simple-id uuid='{B3277AF3-42FF-43B1-B592-13D95AC733AF}' />
     </window>
-    <window class='worksheet' maximized='true' name='Employment by Indus'>
+    <window class='worksheet' maximized='true' name='no impact  from closures'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1u97upg1etti7r142zl4k062t45m].[:Measure Names]</field>
+            <field>[federated.1u97upg1etti7r142zl4k062t45m].[none:F1 (nonclosure_data.csv):nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D134149B-A1C5-4403-9F22-B59F2A57BECB}' />
+    </window>
+    <window class='worksheet' name='Employment by Indus'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -2611,7 +3246,52 @@
       GSVUMkqoZJRQySihklFCJaOESkYJlYwSKhklVDJKqGSUUMkooZJRQiWjhEpGCZWMEioZJVQy
       /wXguX2XrzfM7wAAAABJRU5ErkJggg==
     </thumbnail>
-    <thumbnail height='192' name='Percent of gov-mandate clos' width='192'>
+    <thumbnail height='64' name='Private Emp' width='84'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='gov-mandate closure' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
       AAAgAElEQVR4nOzdV5sc15ng+X9EpPeuMsv7giNAECRBL4lSG83T09urnZm92OeZ7mdnr/di
       PwI/z8729ramZWkAwgMFFKpQ3mWl995n2L2gRIkqiJJaFFGFit9dpYmMPFkn4pzznvccwTAM
@@ -2901,50 +3581,340 @@
       kSo2iS/HSKQv2Lr/Fl6HOQAm2WAwwGoBQbJjtcBIVek1Swzsswj9K5zeEON+C02w43FYqTcV
       ZiPBiY8umlEg01T7O2S0Fu9euCXuAAAAAElFTkSuQmCC
     </thumbnail>
-    <thumbnail height='64' name='Private Emp' width='84'>
-      iVBORw0KGgoAAAANSUhEUgAAAFQAAABACAYAAACELFBMAAAACXBIWXMAAA7DAAAOwwHHb6hk
-      AAAIrUlEQVR4nO2bf1RUVR7APwkIMgYqiKIgiSLmhrnx8hfScTSp0JREa89wzH5uIFrK4q64
-      qS0E7kGSXalN11DYXWw1x9gM16Phz3RLBi0QU2SRH9KgAi2TIMMMe/ePQYREqfaBL8/7nMMf
-      c+/93vd9H+6975373rtHCCFQkY1edzqBuw1VqMyoQmVGFSozqlCZUYXKjCpUZlShMqMKlRlV
-      qMyoQmVGFSozqlCZsb/TCXSknMyIcNLOtf7sM4CxoStIXD4NT4VleisUOUJnrjdgMBg4rk9i
-      Qska5r6YRXkXMUfWSERkdtWq+1Gk0Ov09pB4JTWOycXpvH/CeqfT+V4oWigALiHMnGbi1OkK
-      AGo/+R2/CAlGkiSk4BAaKCczQiImB86lhdvK1xyxxZpOkLpAyyRJQgoOI1ZfSrf/W4SiKBMZ
-      ukCx+nDH0sOrA0Vga2FN0Ulxvt4shBDCUrtL/O3ijTa6jLJ2UdViZ+R88fvjtcIihLDU5orV
-      IU+Jjee69wx+Aku9FasVRozwAsDBWsDGF2I4VvYtFmCJ/qnOwxryOZ5XyuG8ED5oVzyzGhjV
-      fdkqX2hDLnsPuPDzOcOAfDYtzcRx+XYOP+FBb45w++vQOJbnvMczg3ooVxS+hjZfNpC5Yj1H
-      x0Xz/Hh7wEzTNQ1ug/vR29rIhaP/amur6euCsbiYOitYrVbQBDJ+3BdseWs3lc0AzZhKjpLX
-      zTcCihSaEyMhSRKTw9/kc9/fsCstHNsgG0/E4qHsXjSZSTNeYevXTm0xgU+/xkNF8YRMlNCu
-      ywcGEZ6QzNSaNHSTJSRpOvOS9lPXzbnfI4T6GFlOFDlCf8qoQmVGFSozqlCZUYXKjCpUZlSh
-      MqMKlRlVqMyoQmVGOUKtdZzKjGWedhKSJBEcFktmgelGdame2LBgJGkS2gVrOWC0bRXXncok
-      dl67TeTMAtqimi9zevdGYhdomXR907m76d7t1h/A4Xgx87UMkXfJLIQwi4pdMUKrTRYGIYSw
-      GERyiFbE7KoQZmEW59KfFRN1GaJMCBE/8zWRkXdJmIUQ5opdIkarFcmG1i6T5oio9R+Jf771
-      dNsGdXejGKHXrl4VlvYFZRlCFxgpdtYIIY7Fi4mz3hZF1+ssn4u12lni7SIhrnYMEhm6QBG5
-      s0Z07ErXY0IVM+WdNJp2u90mCrL3cc5/IpIblJ8/i+WhAMZcr7Yfire3kdKyBjTttshNBdns
-      O+fPRMmtR3Nvj2KEttFczPalOqL3jyY5LQKfThsNxfs+qL5Scz2I4u1L0UXvZ3RyGhGdB/UI
-      inoEYi3VsywqheopiexIud3LDVVUlsHgCe5gLUW/LIqU6ikk7khh2h1+I0I5Qk1HSIhKwaTL
-      4v2Fvh0S8/EbjcPOQs7wiG3aW6uorPTE9z4NRxKiSDHpyHp/Ib4KOBvFTPmq3enkuEcS/x2Z
-      AIwPZW6znvQPK2mmmeK/vMM/+s1ixhhIz3EnMl4ZMkFBj0COrLG9rNARf5bos1joY1sOVsT8
-      gUMXrdx7/2xWJS9nmqc9kiTd1Jf/Ej1ZC8tZI8Vwc5dL0GctvMXa/P+jGKF3C4qZ8ncLqlCZ
-      UYXKjCpUZrq82TAYDD2Rx11Dl1f5AF1ST+VyV6BOeZlRhcqMKlRmVKEy0+NbCg7Og3j8yYnM
-      n+xH/Y4Ulhy7TWP7AYRHhvPrCQNxphnjyX08n1pAFYDrfayMncfc/lVsWr+DzaUtHWM1o0lN
-      ncujZ7MJWH+m8/6DwimM9m9XUMvWuE2sLwdwJuiZOcSHDsfDwYqp4gSvrjhEPoCrHwlxs3hi
-      WB/smq6Qm6kn7nAdFnpcqAdRvwpl4Kd7WLzLnsTbtrVD+/ICFjTkMP+lEipaHBnupeEqAE7M
-      fjGU4ccyeNL4EO++quXk0k9sJ9saO+HpYJwOnaJ88K2P4Ofpyicbklj22c11Pk/OJ8m3iEVR
-      Oyhq7IXbSFc0APTj5WXBWD7YQnB+PVZnbyLjwllu3ExScY9P+ctsSNjKqoOXMHX1fYsmAJ1/
-      EQlbS6gwA1YzF8rqqAfQjOEp9y94c28Nxi9zeef8CGbefyPUwfcRlrl/xqpjjbc9hNfAFiqN
-      ndUMJWK6mXc3GChqbAEs1JbUYPuwZwhjm/JZl1/PNcDSWEnae8X4BXkDSl5DR3nR/8TpdqOu
-      He73wvnK1q/rWjh0ug5PD7vWyn489+wgdv+5kJrOYttwYsiAq5R09s69mxdjq4rQN3QWV49x
-      8HgWj3bEAcDekcEOgr5DBuKKkoU6O9LLoQ+jXBwA29r74m8XkyzZ3TpGM4bUlf7se+PvZNV3
-      dYAmshL1fASAHS6DR7I8YREJY4G+TjT36s3P+rdKc3Rl+kuvsDOsH1BF0tLNrDtrxgJgNVN9
-      TeBwrYl6lCz07EXq+tpzwWQBwNJ4ifRDRsaMcIOab8HPu3WT2I6pDwzAeLkFvyeCePSB6Xy8
-      bSWF21ZSuDYIHymMwm3hzL7twVowVZewbu8lAka5QflFqno78s03rdLM9eTuP4uT75BOo30e
-      9sNa+jWgZKG1hRx0mU58kCt9aB2hUwdw/NRlaDjDhzXjeP1xdzwfnE6037/J+QrO79xMgC7p
-      xl/cMcoN2QToro/EdvhM5p3FDzKudQb08RjJ6jkenCioBcrIvjiaxDBvXOyxjdAZozB+WQrA
-      UF9vhjvbAXZ4PhjCHx/7hi37/wP0+FV+DGnbwpja9nslhdGAwXZr4xP2AlkDDzJl8wWgkaw/
-      7SUmegFHo12wa6rn5Id6IosBmvgofQ8PxD7H7v4XSE3M7nyt/Q4O0mwOzjLyzBt5VJXnsaEo
-      lLVvPYafxh5r0xVyM7cTVwzQwud/zcYrMpz9Wwfi/N9rnP/0Y36Z22TraNjDbHp9FJ5O0Hil
-      nPfW7WBP63qroM2RfkQlhGJK2fY91r8fgx0zol9g0oEtxH/V0nXzH4lyprxPAMNO7OkmmYC9
-      P480H2BtN8oE+B/dNF6UP7CieAAAAABJRU5ErkJggg==
+    <thumbnail height='192' name='no impact  from closures' width='192'>
+      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
+      5XHXXsBdAAAAAElFTkSuQmCC
     </thumbnail>
   </thumbnails>
 </workbook>
