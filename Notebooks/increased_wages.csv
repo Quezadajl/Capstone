@@ -1,0 +1,36 @@
+﻿"Table 4e: Establishments that increased salaries and wages, by industry*",,,,,,,,,
+Industry,NAICS 1,Percentage of establishments 2,Standard error of the percentage of establishments 3,Number of establishments 4,Standard error of the number of establishments 5,Percentage of employment In establishments 6,Standard error of the percentage of employment In establishments 7,Employment in establishments 8,Standard error of the employment in establishments 9
+"Total U.S., private sector 10",00,5.60,0.12,"473,460","9,916",9.74,0.29,"12,295,992","370,376"
+"Agriculture, Forestry, Fishing and Hunting",11,11.21,4.19,"11,728","4,382",10.07,3.99,"128,861","51,096"
+"Mining, Quarrying, and Oil and Gas Extraction",21,1.07,0.86,327,263,0.70,1.84,"4,729","12,433"
+Utilities,22,1.25,1.56,231,286,1.12,1.23,"6,173","6,750"
+Construction,23,4.08,0.21,"31,853","1,615",4.82,0.57,"362,130","42,767"
+Manufacturing,31-33,5.41,0.20,"18,605",703,9.23,0.66,"1,186,643","84,539"
+Wholesale Trade,42,3.83,0.40,"22,315","2,332",7.90,1.23,"467,740","72,997"
+Retail Trade,44-45,11.28,0.35,"114,707","3,587",16.54,1.16,"2,603,802","182,960"
+Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation),48-49A,9.04,1.53,"10,179","1,718",13.47,2.21,"475,979","78,126"
+Scheduled Air Transportation,4811,0.35,1.99,8,48,0.05,3.22,219,"14,818"
+Truck Transportation,484,3.58,1.00,"4,748","1,322",4.99,1.67,"76,639","25,652"
+Information,51,1.28,1.23,"2,239","2,140",4.88,2.16,"140,424","62,130"
+Finance and Insurance,52,3.69,0.56,"17,788","2,683",4.15,1.14,"251,623","69,278"
+Real Estate and Rental and Leasing ,53,2.62,0.55,"10,546","2,202",3.54,1.17,"82,085","27,154"
+Professional and Technical Services,54,2.27,0.24,"27,095","2,908",3.96,1.20,"381,121","115,322"
+Management of Companies and Enterprises,55,5.95,1.22,"3,981",817,7.48,2.16,"181,358","52,405"
+Administrative and Waste Services,56,5.27,0.51,"27,990","2,712",7.44,1.44,"698,274","135,582"
+Educational Services,61,2.35,1.25,"2,866","1,532",3.10,1.50,"92,092","44,629"
+Health Care,621-623,9.20,0.31,"64,159","2,165",18.07,0.94,"2,937,458","153,551"
+Social Assistance,624,6.86,0.90,"14,539","1,918",13.07,1.27,"442,671","43,022"
+"Arts, Entertainment, and Recreation",71,1.95,0.64,"2,881",939,1.55,1.39,"37,839","33,884"
+Accommodation and Food Services,72,9.84,0.31,"69,820","2,209",11.06,0.54,"1,569,617","77,149"
+"Other Services, Except Public Administration",81,2.52,0.31,"14,857","1,815",3.92,0.83,"168,516","35,520"
+"1North American Industry Classification System, 2017",,,,,,,,,
+2Percentage of establishments that increased salaries and wages,,,,,,,,,
+3Standard error of the percentage of establishments that increased salaries and wages,,,,,,,,,
+4Number of establishments that increased salaries and wages,,,,,,,,,
+5Standard error of the number of establishments that increased salaries and wages,,,,,,,,,
+6Percentage of employment in establishments that increased salaries and wages,,,,,,,,,
+7Standard error of the percentage of employment in establishments that increased salaries and wages,,,,,,,,,
+8Employment in establishments that increased salaries and wages,,,,,,,,,
+9Standard error of the employment in establishments that increased salaries and wages,,,,,,,,,
+"10Total U.S., private sector includes the 50 states, District of Columbia and Puerto Rico",,,,,,,,,
+*Detail may not sum to total due to rounding,,,,,,,,,

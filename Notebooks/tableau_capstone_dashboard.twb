@@ -6000,6 +6000,171 @@
       </table>
       <simple-id uuid='{667E03C3-1EF3-49E5-BAF6-9EFA12CB9A1B}' />
     </worksheet>
+    <worksheet name='Business with uncertain remote pay'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run> Establishments that told employees not to work,
+ with or without pay, by industry*</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='national_data_employees+' name='federated.1u97upg1etti7r142zl4k062t45m' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1u97upg1etti7r142zl4k062t45m'>
+            <column caption='Accommodation and Food Services (uncertain pay.csv)' datatype='real' name='[Accommodation and Food Services (uncertain_pay.csv)]' role='measure' type='quantitative' />
+            <column caption='Administrative and Waste Services (uncertain pay.csv)' datatype='real' name='[Administrative and Waste Services (uncertain_pay.csv)]' role='measure' type='quantitative' />
+            <column caption='Agriculture, Forestry, Fishing and Hunting (uncertain pay.csv)' datatype='real' name='[Agriculture, Forestry, Fishing and Hunting (uncertain_pay.csv)]' role='measure' type='quantitative' />
+            <column caption='Arts, Entertainment, and Recreation (uncertain pay.csv)' datatype='real' name='[Arts, Entertainment, and Recreation (uncertain_pay.csv)]' role='measure' type='quantitative' />
+            <column caption='Construction (uncertain pay.csv)' datatype='real' name='[Construction (uncertain_pay.csv)]' role='measure' type='quantitative' />
+            <column caption='Educational Services (uncertain pay.csv)' datatype='real' name='[Educational Services (uncertain_pay.csv)]' role='measure' type='quantitative' />
+            <column caption='F1 (uncertain pay.csv)' datatype='string' name='[F1 (uncertain_pay.csv)]' role='dimension' type='nominal' />
+            <column caption='Finance and Insurance (uncertain pay.csv)' datatype='real' name='[Finance and Insurance (uncertain_pay.csv)]' role='measure' type='quantitative' />
+            <column caption='Health Care (uncertain pay.csv)' datatype='real' name='[Health Care (uncertain_pay.csv)]' role='measure' type='quantitative' />
+            <column caption='Information (uncertain pay.csv)' datatype='real' name='[Information (uncertain_pay.csv)]' role='measure' type='quantitative' />
+            <column caption='Management of Companies and Enterprises (uncertain pay.csv)' datatype='real' name='[Management of Companies and Enterprises (uncertain_pay.csv)]' role='measure' type='quantitative' />
+            <column caption='Manufacturing (uncertain pay.csv)' datatype='real' name='[Manufacturing (uncertain_pay.csv)]' role='measure' type='quantitative' />
+            <column caption='Mining, Quarrying, and Oil and Gas Extraction (uncertain pay.csv)' datatype='real' name='[Mining, Quarrying, and Oil and Gas Extraction (uncertain_pay.csv)]' role='measure' type='quantitative' />
+            <column caption='Other Services, Except Public Administration (uncertain pay.csv)' datatype='real' name='[Other Services, Except Public Administration (uncertain_pay.csv)]' role='measure' type='quantitative' />
+            <column caption='Professional and Technical Services (uncertain pay.csv)' datatype='real' name='[Professional and Technical Services (uncertain_pay.csv)]' role='measure' type='quantitative' />
+            <column caption='Real Estate and Rental and Leasing  (uncertain pay.csv)' datatype='real' name='[Real Estate and Rental and Leasing  (uncertain_pay.csv)]' role='measure' type='quantitative' />
+            <column caption='Retail Trade (uncertain pay.csv)' datatype='real' name='[Retail Trade (uncertain_pay.csv)]' role='measure' type='quantitative' />
+            <column caption='Scheduled Air Transportation (uncertain pay.csv)' datatype='real' name='[Scheduled Air Transportation (uncertain_pay.csv)]' role='measure' type='quantitative' />
+            <column caption='Social Assistance (uncertain pay.csv)' datatype='real' name='[Social Assistance (uncertain_pay.csv)]' role='measure' type='quantitative' />
+            <column caption='Total U.S., private sector  (uncertain pay.csv)' datatype='real' name='[Total U.S., private sector  (uncertain_pay.csv)]' role='measure' type='quantitative' />
+            <column caption='Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation) (uncertain pay.csv)' datatype='real' name='[Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation) (uncertain_pay.csv)]' role='measure' type='quantitative' />
+            <column caption='Truck Transportation (uncertain pay.csv)' datatype='real' name='[Truck Transportation (uncertain_pay.csv)]' role='measure' type='quantitative' />
+            <column caption='Utilities (uncertain pay.csv)' datatype='real' name='[Utilities (uncertain_pay.csv)]' role='measure' type='quantitative' />
+            <column caption='Wholesale Trade (uncertain pay.csv)' datatype='real' name='[Wholesale Trade (uncertain_pay.csv)]' role='measure' type='quantitative' />
+            <column-instance column='[F1 (uncertain_pay.csv)]' derivation='None' name='[none:F1 (uncertain_pay.csv):nk]' pivot='key' type='nominal' />
+            <column-instance column='[Accommodation and Food Services (uncertain_pay.csv)]' derivation='Sum' name='[sum:Accommodation and Food Services (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Administrative and Waste Services (uncertain_pay.csv)]' derivation='Sum' name='[sum:Administrative and Waste Services (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Agriculture, Forestry, Fishing and Hunting (uncertain_pay.csv)]' derivation='Sum' name='[sum:Agriculture, Forestry, Fishing and Hunting (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Arts, Entertainment, and Recreation (uncertain_pay.csv)]' derivation='Sum' name='[sum:Arts, Entertainment, and Recreation (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Construction (uncertain_pay.csv)]' derivation='Sum' name='[sum:Construction (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Educational Services (uncertain_pay.csv)]' derivation='Sum' name='[sum:Educational Services (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Finance and Insurance (uncertain_pay.csv)]' derivation='Sum' name='[sum:Finance and Insurance (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Health Care (uncertain_pay.csv)]' derivation='Sum' name='[sum:Health Care (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Information (uncertain_pay.csv)]' derivation='Sum' name='[sum:Information (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Management of Companies and Enterprises (uncertain_pay.csv)]' derivation='Sum' name='[sum:Management of Companies and Enterprises (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Manufacturing (uncertain_pay.csv)]' derivation='Sum' name='[sum:Manufacturing (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Mining, Quarrying, and Oil and Gas Extraction (uncertain_pay.csv)]' derivation='Sum' name='[sum:Mining, Quarrying, and Oil and Gas Extraction (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Other Services, Except Public Administration (uncertain_pay.csv)]' derivation='Sum' name='[sum:Other Services, Except Public Administration (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Professional and Technical Services (uncertain_pay.csv)]' derivation='Sum' name='[sum:Professional and Technical Services (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Real Estate and Rental and Leasing  (uncertain_pay.csv)]' derivation='Sum' name='[sum:Real Estate and Rental and Leasing  (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Retail Trade (uncertain_pay.csv)]' derivation='Sum' name='[sum:Retail Trade (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Scheduled Air Transportation (uncertain_pay.csv)]' derivation='Sum' name='[sum:Scheduled Air Transportation (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Social Assistance (uncertain_pay.csv)]' derivation='Sum' name='[sum:Social Assistance (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total U.S., private sector  (uncertain_pay.csv)]' derivation='Sum' name='[sum:Total U.S., private sector  (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation) (uncertain_pay.csv)]' derivation='Sum' name='[sum:Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation) (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Truck Transportation (uncertain_pay.csv)]' derivation='Sum' name='[sum:Truck Transportation (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Utilities (uncertain_pay.csv)]' derivation='Sum' name='[sum:Utilities (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Wholesale Trade (uncertain_pay.csv)]' derivation='Sum' name='[sum:Wholesale Trade (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1u97upg1etti7r142zl4k062t45m].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Accommodation and Food Services (uncertain_pay.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Administrative and Waste Services (uncertain_pay.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Agriculture, Forestry, Fishing and Hunting (uncertain_pay.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Arts, Entertainment, and Recreation (uncertain_pay.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Construction (uncertain_pay.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Educational Services (uncertain_pay.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Finance and Insurance (uncertain_pay.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Health Care (uncertain_pay.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Information (uncertain_pay.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Management of Companies and Enterprises (uncertain_pay.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Manufacturing (uncertain_pay.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Mining, Quarrying, and Oil and Gas Extraction (uncertain_pay.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Other Services, Except Public Administration (uncertain_pay.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Professional and Technical Services (uncertain_pay.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Real Estate and Rental and Leasing  (uncertain_pay.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Retail Trade (uncertain_pay.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Scheduled Air Transportation (uncertain_pay.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Social Assistance (uncertain_pay.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Total U.S., private sector  (uncertain_pay.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation) (uncertain_pay.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Truck Transportation (uncertain_pay.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Utilities (uncertain_pay.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Wholesale Trade (uncertain_pay.csv):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1u97upg1etti7r142zl4k062t45m].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Total U.S., private sector  (uncertain_pay.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Health Care (uncertain_pay.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Accommodation and Food Services (uncertain_pay.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Retail Trade (uncertain_pay.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Manufacturing (uncertain_pay.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Administrative and Waste Services (uncertain_pay.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Professional and Technical Services (uncertain_pay.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Construction (uncertain_pay.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Wholesale Trade (uncertain_pay.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Other Services, Except Public Administration (uncertain_pay.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Finance and Insurance (uncertain_pay.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Social Assistance (uncertain_pay.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Educational Services (uncertain_pay.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Arts, Entertainment, and Recreation (uncertain_pay.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation) (uncertain_pay.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Management of Companies and Enterprises (uncertain_pay.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Real Estate and Rental and Leasing  (uncertain_pay.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Information (uncertain_pay.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Truck Transportation (uncertain_pay.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Agriculture, Forestry, Fishing and Hunting (uncertain_pay.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Mining, Quarrying, and Oil and Gas Extraction (uncertain_pay.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Scheduled Air Transportation (uncertain_pay.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Utilities (uncertain_pay.csv):qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1u97upg1etti7r142zl4k062t45m].[none:F1 (uncertain_pay.csv):nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:F1 (uncertain_pay.csv):nk]' member='&quot;Employment in establishments&quot;' />
+              <groupfilter function='member' level='[none:F1 (uncertain_pay.csv):nk]' member='&quot;Number of establishments&quot;' />
+              <groupfilter function='member' level='[none:F1 (uncertain_pay.csv):nk]' member='&quot;Percentage of employment In establishments&quot;' />
+              <groupfilter function='member' level='[none:F1 (uncertain_pay.csv):nk]' member='&quot;Percentage of establishments&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1u97upg1etti7r142zl4k062t45m].[:Measure Names]</column>
+            <column>[federated.1u97upg1etti7r142zl4k062t45m].[none:F1 (uncertain_pay.csv):nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1u97upg1etti7r142zl4k062t45m].[none:F1 (uncertain_pay.csv):nk]' value='141' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1u97upg1etti7r142zl4k062t45m].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1u97upg1etti7r142zl4k062t45m].[:Measure Names]</rows>
+        <cols>[federated.1u97upg1etti7r142zl4k062t45m].[none:F1 (uncertain_pay.csv):nk]</cols>
+      </table>
+      <simple-id uuid='{9FFA4977-F359-4266-B225-39FE541E3FD2}' />
+    </worksheet>
     <worksheet name='Employment by Indus'>
       <layout-options>
         <title>
@@ -6255,171 +6420,6 @@
         <cols>[federated.1u97upg1etti7r142zl4k062t45m].[yr:F1:ok]</cols>
       </table>
       <simple-id uuid='{39696E06-EEAB-4D6C-8714-C163BE3EC491}' />
-    </worksheet>
-    <worksheet name='Sheet 10'>
-      <layout-options>
-        <title>
-          <formatted-text>
-            <run> Establishments that told employees not to work,
- with or without pay, by industry*</run>
-          </formatted-text>
-        </title>
-      </layout-options>
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='national_data_employees+' name='federated.1u97upg1etti7r142zl4k062t45m' />
-          </datasources>
-          <datasource-dependencies datasource='federated.1u97upg1etti7r142zl4k062t45m'>
-            <column caption='Accommodation and Food Services (uncertain pay.csv)' datatype='real' name='[Accommodation and Food Services (uncertain_pay.csv)]' role='measure' type='quantitative' />
-            <column caption='Administrative and Waste Services (uncertain pay.csv)' datatype='real' name='[Administrative and Waste Services (uncertain_pay.csv)]' role='measure' type='quantitative' />
-            <column caption='Agriculture, Forestry, Fishing and Hunting (uncertain pay.csv)' datatype='real' name='[Agriculture, Forestry, Fishing and Hunting (uncertain_pay.csv)]' role='measure' type='quantitative' />
-            <column caption='Arts, Entertainment, and Recreation (uncertain pay.csv)' datatype='real' name='[Arts, Entertainment, and Recreation (uncertain_pay.csv)]' role='measure' type='quantitative' />
-            <column caption='Construction (uncertain pay.csv)' datatype='real' name='[Construction (uncertain_pay.csv)]' role='measure' type='quantitative' />
-            <column caption='Educational Services (uncertain pay.csv)' datatype='real' name='[Educational Services (uncertain_pay.csv)]' role='measure' type='quantitative' />
-            <column caption='F1 (uncertain pay.csv)' datatype='string' name='[F1 (uncertain_pay.csv)]' role='dimension' type='nominal' />
-            <column caption='Finance and Insurance (uncertain pay.csv)' datatype='real' name='[Finance and Insurance (uncertain_pay.csv)]' role='measure' type='quantitative' />
-            <column caption='Health Care (uncertain pay.csv)' datatype='real' name='[Health Care (uncertain_pay.csv)]' role='measure' type='quantitative' />
-            <column caption='Information (uncertain pay.csv)' datatype='real' name='[Information (uncertain_pay.csv)]' role='measure' type='quantitative' />
-            <column caption='Management of Companies and Enterprises (uncertain pay.csv)' datatype='real' name='[Management of Companies and Enterprises (uncertain_pay.csv)]' role='measure' type='quantitative' />
-            <column caption='Manufacturing (uncertain pay.csv)' datatype='real' name='[Manufacturing (uncertain_pay.csv)]' role='measure' type='quantitative' />
-            <column caption='Mining, Quarrying, and Oil and Gas Extraction (uncertain pay.csv)' datatype='real' name='[Mining, Quarrying, and Oil and Gas Extraction (uncertain_pay.csv)]' role='measure' type='quantitative' />
-            <column caption='Other Services, Except Public Administration (uncertain pay.csv)' datatype='real' name='[Other Services, Except Public Administration (uncertain_pay.csv)]' role='measure' type='quantitative' />
-            <column caption='Professional and Technical Services (uncertain pay.csv)' datatype='real' name='[Professional and Technical Services (uncertain_pay.csv)]' role='measure' type='quantitative' />
-            <column caption='Real Estate and Rental and Leasing  (uncertain pay.csv)' datatype='real' name='[Real Estate and Rental and Leasing  (uncertain_pay.csv)]' role='measure' type='quantitative' />
-            <column caption='Retail Trade (uncertain pay.csv)' datatype='real' name='[Retail Trade (uncertain_pay.csv)]' role='measure' type='quantitative' />
-            <column caption='Scheduled Air Transportation (uncertain pay.csv)' datatype='real' name='[Scheduled Air Transportation (uncertain_pay.csv)]' role='measure' type='quantitative' />
-            <column caption='Social Assistance (uncertain pay.csv)' datatype='real' name='[Social Assistance (uncertain_pay.csv)]' role='measure' type='quantitative' />
-            <column caption='Total U.S., private sector  (uncertain pay.csv)' datatype='real' name='[Total U.S., private sector  (uncertain_pay.csv)]' role='measure' type='quantitative' />
-            <column caption='Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation) (uncertain pay.csv)' datatype='real' name='[Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation) (uncertain_pay.csv)]' role='measure' type='quantitative' />
-            <column caption='Truck Transportation (uncertain pay.csv)' datatype='real' name='[Truck Transportation (uncertain_pay.csv)]' role='measure' type='quantitative' />
-            <column caption='Utilities (uncertain pay.csv)' datatype='real' name='[Utilities (uncertain_pay.csv)]' role='measure' type='quantitative' />
-            <column caption='Wholesale Trade (uncertain pay.csv)' datatype='real' name='[Wholesale Trade (uncertain_pay.csv)]' role='measure' type='quantitative' />
-            <column-instance column='[F1 (uncertain_pay.csv)]' derivation='None' name='[none:F1 (uncertain_pay.csv):nk]' pivot='key' type='nominal' />
-            <column-instance column='[Accommodation and Food Services (uncertain_pay.csv)]' derivation='Sum' name='[sum:Accommodation and Food Services (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Administrative and Waste Services (uncertain_pay.csv)]' derivation='Sum' name='[sum:Administrative and Waste Services (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Agriculture, Forestry, Fishing and Hunting (uncertain_pay.csv)]' derivation='Sum' name='[sum:Agriculture, Forestry, Fishing and Hunting (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Arts, Entertainment, and Recreation (uncertain_pay.csv)]' derivation='Sum' name='[sum:Arts, Entertainment, and Recreation (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Construction (uncertain_pay.csv)]' derivation='Sum' name='[sum:Construction (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Educational Services (uncertain_pay.csv)]' derivation='Sum' name='[sum:Educational Services (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Finance and Insurance (uncertain_pay.csv)]' derivation='Sum' name='[sum:Finance and Insurance (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Health Care (uncertain_pay.csv)]' derivation='Sum' name='[sum:Health Care (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Information (uncertain_pay.csv)]' derivation='Sum' name='[sum:Information (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Management of Companies and Enterprises (uncertain_pay.csv)]' derivation='Sum' name='[sum:Management of Companies and Enterprises (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Manufacturing (uncertain_pay.csv)]' derivation='Sum' name='[sum:Manufacturing (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Mining, Quarrying, and Oil and Gas Extraction (uncertain_pay.csv)]' derivation='Sum' name='[sum:Mining, Quarrying, and Oil and Gas Extraction (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Other Services, Except Public Administration (uncertain_pay.csv)]' derivation='Sum' name='[sum:Other Services, Except Public Administration (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Professional and Technical Services (uncertain_pay.csv)]' derivation='Sum' name='[sum:Professional and Technical Services (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Real Estate and Rental and Leasing  (uncertain_pay.csv)]' derivation='Sum' name='[sum:Real Estate and Rental and Leasing  (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Retail Trade (uncertain_pay.csv)]' derivation='Sum' name='[sum:Retail Trade (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Scheduled Air Transportation (uncertain_pay.csv)]' derivation='Sum' name='[sum:Scheduled Air Transportation (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Social Assistance (uncertain_pay.csv)]' derivation='Sum' name='[sum:Social Assistance (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Total U.S., private sector  (uncertain_pay.csv)]' derivation='Sum' name='[sum:Total U.S., private sector  (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation) (uncertain_pay.csv)]' derivation='Sum' name='[sum:Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation) (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Truck Transportation (uncertain_pay.csv)]' derivation='Sum' name='[sum:Truck Transportation (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Utilities (uncertain_pay.csv)]' derivation='Sum' name='[sum:Utilities (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Wholesale Trade (uncertain_pay.csv)]' derivation='Sum' name='[sum:Wholesale Trade (uncertain_pay.csv):qk]' pivot='key' type='quantitative' />
-          </datasource-dependencies>
-          <filter class='categorical' column='[federated.1u97upg1etti7r142zl4k062t45m].[:Measure Names]'>
-            <groupfilter function='union' user:op='manual'>
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Accommodation and Food Services (uncertain_pay.csv):qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Administrative and Waste Services (uncertain_pay.csv):qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Agriculture, Forestry, Fishing and Hunting (uncertain_pay.csv):qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Arts, Entertainment, and Recreation (uncertain_pay.csv):qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Construction (uncertain_pay.csv):qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Educational Services (uncertain_pay.csv):qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Finance and Insurance (uncertain_pay.csv):qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Health Care (uncertain_pay.csv):qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Information (uncertain_pay.csv):qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Management of Companies and Enterprises (uncertain_pay.csv):qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Manufacturing (uncertain_pay.csv):qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Mining, Quarrying, and Oil and Gas Extraction (uncertain_pay.csv):qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Other Services, Except Public Administration (uncertain_pay.csv):qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Professional and Technical Services (uncertain_pay.csv):qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Real Estate and Rental and Leasing  (uncertain_pay.csv):qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Retail Trade (uncertain_pay.csv):qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Scheduled Air Transportation (uncertain_pay.csv):qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Social Assistance (uncertain_pay.csv):qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Total U.S., private sector  (uncertain_pay.csv):qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation) (uncertain_pay.csv):qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Truck Transportation (uncertain_pay.csv):qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Utilities (uncertain_pay.csv):qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Wholesale Trade (uncertain_pay.csv):qk]&quot;' />
-            </groupfilter>
-          </filter>
-          <manual-sort column='[federated.1u97upg1etti7r142zl4k062t45m].[:Measure Names]' direction='ASC'>
-            <dictionary>
-              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Total U.S., private sector  (uncertain_pay.csv):qk]&quot;</bucket>
-              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Health Care (uncertain_pay.csv):qk]&quot;</bucket>
-              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Accommodation and Food Services (uncertain_pay.csv):qk]&quot;</bucket>
-              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Retail Trade (uncertain_pay.csv):qk]&quot;</bucket>
-              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Manufacturing (uncertain_pay.csv):qk]&quot;</bucket>
-              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Administrative and Waste Services (uncertain_pay.csv):qk]&quot;</bucket>
-              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Professional and Technical Services (uncertain_pay.csv):qk]&quot;</bucket>
-              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Construction (uncertain_pay.csv):qk]&quot;</bucket>
-              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Wholesale Trade (uncertain_pay.csv):qk]&quot;</bucket>
-              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Other Services, Except Public Administration (uncertain_pay.csv):qk]&quot;</bucket>
-              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Finance and Insurance (uncertain_pay.csv):qk]&quot;</bucket>
-              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Social Assistance (uncertain_pay.csv):qk]&quot;</bucket>
-              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Educational Services (uncertain_pay.csv):qk]&quot;</bucket>
-              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Arts, Entertainment, and Recreation (uncertain_pay.csv):qk]&quot;</bucket>
-              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Transportation and Warehousing (excluding Scheduled Air Transportation and Truck Transportation) (uncertain_pay.csv):qk]&quot;</bucket>
-              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Management of Companies and Enterprises (uncertain_pay.csv):qk]&quot;</bucket>
-              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Real Estate and Rental and Leasing  (uncertain_pay.csv):qk]&quot;</bucket>
-              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Information (uncertain_pay.csv):qk]&quot;</bucket>
-              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Truck Transportation (uncertain_pay.csv):qk]&quot;</bucket>
-              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Agriculture, Forestry, Fishing and Hunting (uncertain_pay.csv):qk]&quot;</bucket>
-              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Mining, Quarrying, and Oil and Gas Extraction (uncertain_pay.csv):qk]&quot;</bucket>
-              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Scheduled Air Transportation (uncertain_pay.csv):qk]&quot;</bucket>
-              <bucket>&quot;[federated.1u97upg1etti7r142zl4k062t45m].[sum:Utilities (uncertain_pay.csv):qk]&quot;</bucket>
-            </dictionary>
-          </manual-sort>
-          <filter class='categorical' column='[federated.1u97upg1etti7r142zl4k062t45m].[none:F1 (uncertain_pay.csv):nk]'>
-            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
-              <groupfilter function='member' level='[none:F1 (uncertain_pay.csv):nk]' member='&quot;Employment in establishments&quot;' />
-              <groupfilter function='member' level='[none:F1 (uncertain_pay.csv):nk]' member='&quot;Number of establishments&quot;' />
-              <groupfilter function='member' level='[none:F1 (uncertain_pay.csv):nk]' member='&quot;Percentage of employment In establishments&quot;' />
-              <groupfilter function='member' level='[none:F1 (uncertain_pay.csv):nk]' member='&quot;Percentage of establishments&quot;' />
-            </groupfilter>
-          </filter>
-          <slices>
-            <column>[federated.1u97upg1etti7r142zl4k062t45m].[:Measure Names]</column>
-            <column>[federated.1u97upg1etti7r142zl4k062t45m].[none:F1 (uncertain_pay.csv):nk]</column>
-          </slices>
-          <aggregation value='true' />
-        </view>
-        <style>
-          <style-rule element='cell'>
-            <format attr='width' field='[federated.1u97upg1etti7r142zl4k062t45m].[none:F1 (uncertain_pay.csv):nk]' value='141' />
-          </style-rule>
-          <style-rule element='worksheet'>
-            <format attr='display-field-labels' scope='cols' value='false' />
-          </style-rule>
-        </style>
-        <panes>
-          <pane selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Automatic' />
-            <encodings>
-              <text column='[federated.1u97upg1etti7r142zl4k062t45m].[Multiple Values]' />
-            </encodings>
-            <style>
-              <style-rule element='mark'>
-                <format attr='mark-labels-show' value='true' />
-              </style-rule>
-              <style-rule element='pane'>
-                <format attr='minwidth' value='-1' />
-                <format attr='maxwidth' value='-1' />
-              </style-rule>
-            </style>
-          </pane>
-        </panes>
-        <rows>[federated.1u97upg1etti7r142zl4k062t45m].[:Measure Names]</rows>
-        <cols>[federated.1u97upg1etti7r142zl4k062t45m].[none:F1 (uncertain_pay.csv):nk]</cols>
-      </table>
-      <simple-id uuid='{9FFA4977-F359-4266-B225-39FE541E3FD2}' />
     </worksheet>
     <worksheet name='gov-mandate closure'>
       <layout-options>
@@ -6966,31 +6966,7 @@
       </cards>
       <simple-id uuid='{9B6CA2CD-75BF-4269-81BB-474628FCC53D}' />
     </window>
-    <window class='worksheet' name='Business that continued to pay remote'>
-      <cards>
-        <edge name='left'>
-          <strip size='160'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-            <card type='measures' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-          <strip size='31'>
-            <card type='title' />
-          </strip>
-        </edge>
-      </cards>
-      <simple-id uuid='{55A7943B-1B8E-4AF4-ACF5-E699062A3490}' />
-    </window>
-    <window class='worksheet' maximized='true' name='Sheet 10'>
+    <window class='worksheet' maximized='true' name='Business with uncertain remote pay'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -7020,6 +6996,30 @@
         </highlight>
       </viewpoint>
       <simple-id uuid='{1EA20063-7F62-4181-A428-EB0233479D23}' />
+    </window>
+    <window class='worksheet' name='Business that continued to pay remote'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{55A7943B-1B8E-4AF4-ACF5-E699062A3490}' />
     </window>
   </windows>
   <thumbnails>
@@ -8722,391 +8722,7 @@
       mrl5f5sf/+DGcy36V1PD4wkyMNDbxGd8CUnEe+Kjt6+/qakO3xb+L1kEx59OMpGOAAAAAElF
       TkSuQmCC
     </thumbnail>
-    <thumbnail height='192' name='Employment by Indus' width='192'>
-      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
-      AAAgAElEQVR4nO292Y8k2Z7n9bHVzXzfI9xjyczItfa6t6r7LrR6piU0EkgjGKQBzSAN4hkJ
-      DQ0v8AIP8wLzByBACBppeKJFMxLqnm6pF7pv993q3qwts3KLffd9d9t58MhwO+4RlZl1Iyuz
-      Muz7UCU7ecLs+LHzO+e3fH8/k4IgCIgQ4ZJCftUDiBDhVeLCBKDX613UrSK8IKK5/+ZQX/UA
-      XhW6rTqH9R7ZlI4daMjOgGy5wu7WNstX14jHLu3UvHTUj/bpWQE6FloiQ69RJ5PP0xlYXL+y
-      /K2O5dKqQIlUGkNXGbkBgWuRSRoMxxauPeKg1nrVw3ujkc5kURUJX4lhDYfk8jlafQtd/vbN
-      0UsrAIe724wdFxwL2ws4PDym1x+jqirFXOpVD++Nxs72Jq4XYA+6BPhsbu5hyD69ofWtj0W6
-      KC9Qr9cjlYoWzqtANPffHCpAEAT0+/3f6EbD4fBCBhThxRHN/TeHCiBJ0oXsINEu9OoQzf03
-      w6W1ASJEgEgAIlxyRAIQ4VIjEoAIlxoXGu7caDxh5IxOr8upBYqJ0kU+IkKEC8WFCsD/9rP/
-      icf1h6fX/+T7/4x/+O5/cJGPiBDhQvFcAmANeqxvbLB88y3Wv3pIPmNgBRrZpIHjQWWx/LLH
-      GSHCS8FzCYCma8TTefYefUmjNSCTWyUmBWw+vMe1D36M7/t4nsdsUNn3A1zXfSkDjzCF53nR
-      PH9DPJcA9LtdRuMhV2+/z+JyF2c8wEbj9vsf49h95GQeRVGQJEn4O1mWUNWIVfmyoSgKTxoP
-      8QL/tG0lu0rKSL/CUX038FyrM10oky5M1BwjmwWyL3NMEb4B/uWf/wuGzpQS8V/+3n/DRyu/
-      /QpH9N1A5AaNcKkRCUCES41IACJcakQCEOFSIxKACJcakQBEuNSIBCDCpcYLUSGy5Sq1WoNc
-      Qo2oEBHeCLwQFSKTjOG5WfBtYkFEhXhd4Hkes5UNfN+P5v458EJUiEbDZ2R5ZJM6TkSFeG2g
-      KArSTJssy9HcPwdemAoRIcKbhMgIjnCpEQlAhEuNSAAiXGpEAhDhUiMSgAiXGpEARLjUiAQg
-      wqXGc1MhHty/j5YtMhwMyRoyFhpJTQIjzWo1ihFE+G7iuQQgCAIKq2t4owFGOgGShBn4NOrH
-      VNfKERXiFSOiQnxzPJ8AENBvN1leXqLbH5M2ZGx0qtVlPM9FluWICvEKEVEhvjmea4bMZIbb
-      tzIAJOKJyf9P/1V/CcOKEOHbQWQER7jUiAQgwqVGJAARLjVeupU0HAw4PNg/vZYlmavXr7/s
-      x0aI8Fx46QKws7XJH/wv//Ppta7r/Hf//b982Y+NEOG5EKlAES41njMQ5tPp9EgYKsftIdm4
-      ioVGIqbj+x6mab7scUaI8FLwXALgWhadfp9+e8xhe4ibTeEHPtv1GtUbbxOLnR8J9vDn7xdF
-      KC8UUST4m+O5BMD3HPZ3t8llsri2g20NcdDJF/IMB0PkXOrcSLAiz2tZUYTyYnFeJLjf69Fs
-      1E/bYjGDpZWVb3dwrzmeayXGEml+9MMfveyxRLhgfH73Ln/8r//o9HppZYX/7Pf/q1c4otcP
-      kREc4VIjEoAIlxqRAES41Hhl1uif7f5rmtbUQPuw8Nvczr77qoYT4ZLilQnA0Wifo9GUInEj
-      fedVDSXCJUakAkW41IgEIMKlxgtRIdIpk92DOoW0GVEhIrwReCEqRONwh8DMUW92fmMqxHzf
-      KHT/TXEeFSIIxLkPgoiGMosXokIslMo0j45IZwy835AKMd83SuL+pjiPCiFJ4txLUkRDmcUL
-      UyHWolyWCG8QIiM4wqXGa3UeBt6Q3mf/udCWuPPfopgRgzHCy0F0AkS41IgEIMKlRiQAES41
-      XisbIMKrgzfeZ7zzr4S2+I3/Akl6s5fIm/3rIjw3Am+M138w0xgwF2B4w/BcAmCPBxy3+iwt
-      ltna2iZhqFiBRiZp4rgu+VzuZY8zQoSXgucSAN1IoEhdWrUD+iMXVZUJgjEPPrvP2oc//trv
-      A7wIFcLzvLm+nucRROH7r8VFUCH8c+Ye/80+Ap7zCzFd9vf3KZfKDHttEkYWX9K4eustRp0m
-      +cTChVAhFEWZ66soCkoUvv9avCgV4g/X/w/cYCoIv1v5B5TOmXtJfrPn/sxfd7jziP26x/vf
-      u4PKhArx0fc/AmAlKqvxncfuYAs3cE6vx+4QlDd7oZ+HM92g3W6Tu7/47AzlJUKENwtnin02
-      V2F5tf9tjyVChG8d5wbC4snkm+4BixBhXgAG7RpfPd7ED2b9ChEivHmYE4BEtkTCCLj3yZeR
-      DRDhjcecAPRbNSxX493feo95x1iECG8W5oxgSZr8J6ZFnz+N8OZjTgAS2RI//lFJaLPHA9Z3
-      DqkWM3y1vkchqWGhkdQkMNKsVsvf2oAjRLhIPDcVIpOKEwBr164y6LaQA59G/ZjqWjmiQrxi
-      /KZUCM/38YmoEOfCGnTpdnpImTTdfo9qOYuDTrW6jOe5pzSGiArxavCbVoVQZBk5okKcj1gi
-      ze3baQAW5/41shUifHfxnRDv5v/+B/T/5N+cXpu//duUfv+fv8IRXR7YW1v4g8HptVosopbf
-      HJvvOyEAZyHwfPydmtAmVwtI+nf2J72WaP+r/5PxZ5+fXqf/0b9P9j/6D1/hiC4W393V4vv4
-      m8dCk1zKQCQAEV4AUVJ8hEuNSAAiXGq8efpCawM2/2J6rZrw3j95deO5TDj4NRz+enqdXISb
-      /+6rG89z4M0TAGcA7c3ptZ58ZUO5dBi3xbn/DuC5q0Ks7xySikkctoZkDTmiQlxi+O0B3t11
-      oU39e+9+J/NHXogK4Vg2+XQCJAnz26RCzPQNgvP7Sp4vsFiDIMB7w6kUL5MKcdZ78v2z+8pB
-      IBiV34W5fyEqxNJSld7QIm3I2N8iFWK2ryRN+s5OraIoSMps+F964z8K8VKpEGe8J1lW5sTl
-      7Pf0+s/9C1MhksmJTp04/deIChHhu4vIDRrhUiMSgAiXGq+3gnaBGP3Jf03QOzy91j/6T1DX
-      /v4rG0+E1wOXRgC8w88JWpun1/6d1ztA86YgCAK83V8KbUr5DlIs9YpGJOLSCECEV4fR//Wf
-      CtfmP/4D1OWPXtFoREQ2QIRLjRc6AZzxgOP2kGxcxUIjEdPxfQ/TNF/W+CJEeKl4IQE4Ojzk
-      sD3EzabwA5/teo3qjbeJxb4DkeCZUKnv++fWyv+u4bWOBJ/xnnzfe23m/oUEwPM8XNvBtoY4
-      6OQLeYaDIXIu9fpHgmdCpbIsv/ZRyufF6xwJPuudyrLy2sz9C43iyvVbXLn+soYSIcK3j8gI
-      jnCpEQlAhEuN10MRe0XwXI/WtlhZIrdSpG2P6dvWaVtCj1FMRIk1byIutQDYA4uf/K9/KrT9
-      27//j/jp0SafHeyetr27uMQ/fOf9b3t4Eb4FXGoBeBFY4zGf//JnQtt7H/+AmGG8ohF9t9He
-      a/DFH08pEtmlAu/+Ox9/6+OIBOA54fserUZ9pi36hMg3hTO2aWwcnV7LZ7jLn+LRvc/ZfPTw
-      9LpQXuD7P/qdCxlHJAARXht4vs//8Bf/Rmj7Zx//8KU+84UEYNRrs9/sk45JWIFGJmniuC75
-      XO5ljS9ChJeKFxKA/f19HMlgrGgQjHnw2X3WPvzxdyMp/gwqhHdOSH+eQnD+816HkP53kQox
-      235eX8/z8f3Z9x9c2Ly/kADkCwX2Dpt4eoCHxtVbbzHqNMknFr6TVAhFPu95s/c4f2yvQ0j/
-      u0iFmG0/r6+iyMjyy0u2f6G75IoL5IoLF/LgCBFeB0SR4AiXGpEARLjUiAQgwqVGJAARLjUi
-      AYhwqREJQIRLjUgAIlxqvFAcIPAdPvv8IfmMgRVoZJMGjgeVxej7ABG+m3ghAXh8/0sarQGZ
-      3CoxKWDz4T2ufRBRIV41IirEN8cLCcDNdz6k1G7jjAfYaNx+/2Mcu4+czEdUiFeIiArxzfHC
-      d8lms0D2Qh4eIcKrxqvfvr7j6Nbvc7T1l6fXWizN1Xf/41c3oAgvhEgAfkN061/x+JP/8fQ6
-      nl6JBOBbws79P2Q8PD69Li79iNzihy90j0gAInxnsfPVH9KpfXF6rahmJACvC/7ySZuxO/XC
-      fFBJsLNX5//5mwenbaVsnH/+j19uyt9lw9j1aY+m7hEJWEid/x27SABeEmp9h6EzFYBR0afZ
-      G/HFxvTIXi69Hh+JeJNQ6zv8+eP26bUmS/zT758fp4oiwREuNSIBiHCp8UIqULdVZ3O/QS6h
-      RlSIi0SrBePR9DqegEzm1Y3nDcSf/Owxrf749Pr7Nxe5vVp8MQHQYzHyuSz4NrEgokJ4njdX
-      HOsp3eAsasJ5feVff4K8uTHte/sO/g9+NPe883BZqRDz6yI4c2yu6/InP3/MxsHUNojrCteL
-      8Rc8ATodhkOHbFLHiagQKIoyV9HsKd3gLGrCeX2ZnQtJRn6BUP9lpUKc9Tz5jHd61m+WZRlV
-      UV5MAMqVZSJlJ8KbhMgIjnCpEQlAhEuNSAAiXGpEAhDhUuMbUSEG3Vb0oeyXDLc/pPmTL4W2
-      4u99D1mP2CsXiW8wmwH1Zkf4UHa0/i8ebn/E8Z/+QmjL/857kQBcML6BCiThWkNGtn/6oewI
-      Eb6r+EbbyfXbb1/0OCI8J/7Fn/4xf7uxfnr97737Pv/0/RfjwEeYQgomoN/v/0Y3Gg6HxONx
-      oS0IAoIgmIuA+r5/5jehzmp/kb4v8rxve2y+7yNJ0lz08iKed9bcv8zn/aa/73V6/ypMQsip
-      1G/OTT+9RxAwHI8xT76g6LsWB0d1QKK4sEhMlacTFfgMxzZx0zjhdgQcHR7g+5DM5Eink8Kk
-      Dkcj4qY56Rv4HB0e4gWQyuRJJSfP8+wxh7UGSBLlhUU0RUaSoFE7xnI8dCNOITchm7n2iKNa
-      EyT5pK907vOetjvWGFQdVZ707XWadPtjZFVjsVwCpn3xXYa2TzKm8XSu5+8LteMjHMcjlkhR
-      yKYnv893OTg8JggCsoUySUNDkiS6rQb9kYWs6iyUiuLcew5DF5IntoI96lNrdQGZSmURWZqO
-      Ac9m6MrEY+pkQfgOBweTfIVcaYGkrp47F4HnTMYGFEqLGPqEgjAe9mi0eyApVCuLSCcspeOj
-      AzwvIJ7Kkjl5p6N+h0anjyQpLFUXhTkOXIuxr2Jo8vnvP7RWEukc6ZT5NXMsrjfTiAEv2Q36
-      dEcYjh1yuRyqquCMR3O7RLj/eDgkmcqiasqE3PZ1fUcjkuksmqrgee7p80a2Sy6bQVVVrJPn
-      ebaNbibQVBWJANefTMrY9kJ9h1/7vDPbfA8UjbihoyoSI8s+t+957Y41xogn0TQVAh/vZGzD
-      kUUmO5k317FOnuciaTqGrqPKMLadr51724NcKoGqaQyHXz/3w5FFNp9HURU8e/zMvrl8fjI2
-      e3T6PNeXyCVNNE1lOJzMpzUaEk9k0DQF7+SkIAhwA5ls0kTVNCzn7Hf9dWOwRkMSqezJfb2v
-      nePz5ufCBcB3LT7//DO6gyn1NJVKcbD7hJ3DFqnU9IvrvjPmyZMnQl8zkaTbOqZ2sI+nhL7B
-      63v89Oe/pNVsCn07zSOODw8I1GnfVCrF7tYTDmptUsnJ8xQ9huKN2d47YGR7aCekuVQqxfbG
-      Yw7r074AeBb37j/ACaU1Dnpttre32Ts4ol5vTBplhZSh8fDJNv3hiLgxTb/rNg55sn0w9wJ2
-      tzcZjKZfotdiJt64z+H+PmNPRjkhfyWSSRrHO+zuHxMzEyfPU0nFZB6s79IfjTBPThYAa9jj
-      088+ww6NOZVK8ejBA1q9PqnkVE0aD3s8fPgI25v2TSZT1A+32N6rE0+E5sId8tNPPhPmPplK
-      cXywydZunURo3lKpFF/d+4ruaEQyMXmeEU/Q7zZoHu1iS5OdF0kilUzy1b0H9EZDYtqUxHaw
-      s8V+rXU6DwQBRwf7bG5uUK/VTteLEU/Sa9eoHe7hyjFhjp88fkivLzpo3HGP9c1dghB18MJ9
-      ar4zYmAHpMfTRW2NBgwtMPWzpdmy7enfuzb1Vo9U3BRZgJJEKh7DlxShb6PdJ2kayKFFNhr2
-      sTwZfbo2IPBpNBokE3FhAkaDHk6goM2QCJuNBp7nMRyNyKQmiy+RypJIzddEarcamIkEnifS
-      j/WYQdAZ4c/QdofDIYoRWmC+R73RJJ6IE6atOvaYds8iEdcFtmer2SCRTOB54n37/QESHkPL
-      JZuYLIhBr4McM5G8eRq0gs/I9sieyIU9HtLpOyRMTewoq5hqgKxP/d32eEh34BKPa8LY+t02
-      WiKJb03faeC71BttsokE4Vfa67bRE0m80CkWeDbtThc9kcDxfHRVBklioVKdG3/gOTSaXVJm
-      XHj/AGYshjND/fZ9l8FoLNCrL14FCnwIJIGfHjMTVBZKwu4P4LkWluMLlGlZ1bm+ugyaiamF
-      hhd4eIFEr9sV+q6tLiHrJoY+7WvGkyyWZ54nyVSWVzF0lUR8elqYiRSL5aK4+wMxTaY3srEs
-      S2jf2njMZ3c/4cvHW6dt2eIi+ZRJMpEQ+o5GAx7c+5yDeldoV1SVbqczbZAVVldXUVSdZHx6
-      gmi6wWp1EcNMoCjTF5wrL5FL6CQT4pj9Ez5+WN4SqQzlYoFkUhzbeDDAl1XU0IrUjTjLlQUS
-      yaTI0HZH+HKMTmjMuhFnaXFhbt6S6SylQl54niSr3Li6gisbJI3pnptKZykWcqQS4b4ag9EQ
-      xXOw3NAPCTw+/+wuf/fXf0lzOFnYkqKxdmWZQDNIxMQdrHG4yc8/fSi0ScioUkCnPzhtu3AB
-      kFUDObDRNDETv9vrYRjmTN8Yhq5imobQ3u520WMmamh0lu1SzKUpLYgf6et0u2iGiTpzuHR7
-      3bnn2aPJyWDo4g7X7XYxDHEM3YFNpZhB18WjNZvJkMoVKaRDC8pz6AxGcxFxM55m7dpV8plp
-      3yAIiOk6eky873DQw5c1Yqr4Iju9HjHDEF+UO6YztOfmLR5TGTrBqUE6/X0dTFP0EhmGgazq
-      mDFRCej2esRihrCrW55KPmVQmZn7s+b4vOe1T96TJs/27WKE5i3wHTLpHI4vYQqLWqaQL1Cp
-      VgSh7TxdKzPvv3r1DmtV8fvVkqKhyGCE5v7iTwBZoZDPzLlVA2fMo/Utoc0d9+gMvbkFaajw
-      8NEjrFBVhVgshizPJ37EFHj48BGWK6ofvjXkyeaO0KZqOntbT+j0R0K7aw1Z39oV2nr9Hqqi
-      zP2O2vExWsykVCyEfrNKt37AYb0l9LWtIbbjMRxPTxHPdVA1nZgubhAxTWVz/RG9oXjiqLg8
-      eLSOF86KUnTaRzscNztiX90ka6r0x+LRbw26bO4eCG2tZh00A2022cR3ePBkQzhFYrqOrGrM
-      ptVJvs2DxxvMYtRrs71/JLTFdYWHDx4wtMVUmlG3ye7BtFKG744Z2D6yN2YwDvf1OTqukSlW
-      SRtTwTBVmQcPHzF2xPu2Gke4vrgROI6NmUgKAvRSvECSpFAs5IU2e9ynN5zqhfgum3t18hlj
-      LuWt2x+heCNG4fcYBIwtay6Lq9sfIXtjZt45w2GP4Vj0kFijAV4gMRyNhfbBoMfICvX1PbKF
-      BarLy1RLGQYj+3QMpYUF7PFITMfzLdojH9cSjS4zniQe0wjr9YHvsb65RX8wEPr2ByMUPAaW
-      OObxaMh4bBHWBnBHdG0FezSzyfgeSjxLISWeLq1OFz9sA9g9GqMADW/OPnGsPv2BLSay+i5j
-      y0ZW1Jm+AzoDey4ds97qIgXiC2l1x5jSiIET7h1Qb/cJQn0dT+LalRWu3X4XfzhNYQwCiXIx
-      jzXj9Wr3RujBiOHM+8/lS0iIfbu1fY5afYYh+/TCBSBwLca2O7fISktrrJRDBmTg02x38FwX
-      byZXNlMos1RdwtTCRjD0er25vNFsscxStYqhiTtZdfU6i0UxsVw3k1xZWSKdFI/nlSvXWSiE
-      +soK+UyCL+7+isPWmIT5dLcOGI1s+t0OgsxKGrfXVkmm5xPZfWTBM6TFTPxxl52DmtAvnkyz
-      vLxMKj6jci2scKVaFHYtFJ2b15ZIZ0SD3LLG+K7N0BJXw80bN0il0tMGd0yjOzrJqxXHm1u8
-      ytVKTjBWkST6vR7ejCGdr1zj2mJ27lR++/YNjERaaMvkclSqqyT08JKTePvWdcxQXyOexOo1
-      +OUvf0EiO91EHcfBtcd0euImkykUqVaXiWvzgS4zLto92WKJvc0ndHov0QYIAo9A1slnxQlw
-      7RFmctrm+z4L5TIg0eu0BNedFLioMUPcWQIYjB2smV1PCly0mDmX9G5bluCeg5OcUUVj5tTH
-      OqOvqsiMHQlZCr10ScZ1hvieLxpoJ/7v+IzuPei28IOAzkBUudZu3ObaiujVkCRQFH1uMQXu
-      GN2cDVLK+MjEZhRf13XR4mnSM16ckeWeBokAbGIsF9MgyTQbNeE08+wRRiIzM58+lgeDbjvc
-      iGcNMZLzQj+wfLJJUZBlKUDR9Ln3NLR9MomwOijhBQFpQ6UfUoF0XaNWb6Oo4g1kPFTdmDuF
-      avUm9lgUFi2e4c7Na5Tz2dDfXyQCn/2jBprkze3qum6yvzfVyWXNYG1tjbW1a6wsL03cXad9
-      Y3TqR4IOGAApQ8VFXGSaHqNdO2Qwo1sahsHurmgDyLJK4AxOIqPhvia7O2JfCKh3OriWeJJl
-      MjlkKZgRIhlDl9mZ0XuT6Qy9/lA0mJn4qPeP6kKbqmrYwzaN7sxL0w1qR3s4YRerJBNTYS+k
-      O+NaNNo9vDN29XjcYHtr+vv0eJrra1dZu3aV5WpFiFPousHhwY5wwgWSio6DrIsnp6abHOzv
-      zC2+RMJga8am0nWNQatGZySeIom4wda22NdzHFqdFo6whCQqS4tYQ3Ez0XWdbuOI3owOnE6Y
-      KJroJHCGHR6tb9PohDyJXCQCn72DY1RVntPr+9028eTMqTDu8otffcre4bHYbg9pjyUKqelO
-      9ujxE5AVhn1x8brWkI4tk0uIu16v0yKZmtmdAo+D4yYLpcJM3+a8+iJr3FlbOdPvr+oGqhKW
-      gIDa0T6FYshL4ns8fvgQM52bBnROcPX6HX740fszQ3M4aAyoFMQ5Gg96BIqBIRzxAceHexTL
-      lWmT3eewYyEF83p9u9kgnRVtsnbjmC/ufsJhW1xQw34XLZYgXFzj0ZN1NE2l227O9O1gxJNz
-      p1arXiOTE5/nuxYHHZ9KTjwZmo1jsrmi0JbN5siXl8nFRZvDdz3iCfE0dO0RjSGU09NTZNTv
-      srl/RG5GC1E0gw+//zE3ry6ftl2oAAS+S3FxmbVr1wiciQfkKYa2izxTyCQIAjzHYsaBQ7vd
-      Z6EQpxOybCoLRVau3WB1eUns2+lTzpn0ZnaWkROAP2sE98kVijTbovdk7AKeLbQR+Diuj22L
-      XpnacY0gmPFR+w6qmWXQC3mBPIt09Qbv3blBwhA9Pr5rs7ktnjiDfpeFUo56RzSOe4MxSVMR
-      n+dZ6IkivU7jtMn2JVaWl1i7do1hry1sQC4KriXeN/A8xrY1RxLrDW1iGoRjbKV8jht33ma5
-      WhH7jmw0JZivSaRocwZ6q9lhZTFFrSe+k0COYY16QtvYGqNIgaAWg0+7N2DQE9WwdrtHpZig
-      OZi+/1ZvwL/14x+zXBHdtgQB/U6T4/r0HhcaCZZUg9WFPOsbm5QWK+ih8GplcYGBPeNGQyKT
-      zszVg1moLHLc7JExp+2e69HvNTATKcLxpoVKhVqrJ7jGACoLZcae+HKNVJ500qZYFP3Diwsl
-      rBmXmWW7ZNJJYnFxF8nn0jzebRAPG3NKjFIuRTw7PVkC32Vrc4NxN025skTC0E9VDc/38WYq
-      66TzJfo2lHKiLbJYWaTVGxMLnzhqnGI2TipfOm3Sk3lKXpP1zS2qS8tCFH2hVCTQRH+9JElk
-      MrnZkkRUK4t0hjbhx7meT+P4iFQmP9e3O3TmToCFYhHZEH9HuVLhoNailBCXXLmYRzFDcxwE
-      aDEDIx7MGLYyuhKgzZzIC5UKR40O+dBaGXTbrI9GyFqMK8vVKcGOgMD3cUOOlAs3glVVIpAU
-      kZow6PLlV48IZtQix5dIpRKnVAMA37H49NMv8IJA0GWzuRzb21sc16a6s+eM+eyMvsNeh3sP
-      H+OHK6MFPpuP7tHojYTdcdBrc//hk7mxxXR94nUIRQ1de8RXjzYpFvNCuLVxtMPGfg0/pKd7
-      ksbyQgEkiVazIejUg34PKezO9V0e3PuS3tgRxuGMh3z+xX38QNxl6/sbbB225irNEQTzAch2
-      k4frm3N9FV3HTKRIhYJN1qjP5/e+mlOhSvkMTza2qTemJ4417PPFvQdzfTutOo82toS5CDyH
-      T+9+hguCwd1p1Xm8uSNWc5MkNE2n12nhhsbcbtaod0ak4lNB9l2bTz/9HHdmfkql4qRQl+/R
-      EOw9if5ojBRaFxefX+e7DAYjwQje3dujsrg4x82I6TqjQR8tniZ1Qk+wenWkRJ7Ac0RjTpJY
-      LJVRQ9v/uFtHSeYJZkoR7u7tUllcxHVDE+ta1PsepYImvLTzxkbgMnAkbl+ZHqOqbvL27evU
-      ehZeIJ1O3s5+jUopL/xmVTepLC5OmKgBgh2QSiUZhRekPaDraiyokjC2Ru2QTL40Ke0YwvZh
-      g0qxOMc9cm2LsW0L87a7O5mLWfexpun0u/uk8mWeamiHBwcUywu4zsxcyDKLCwvEQ5Hn/YM9
-      ygsLc6UWnz4vvMsyamLpWSTXETaCnd09KosLc7+j226yeOU6iVCUOpsvUS53UaRpX7dfxzdz
-      MFMmMZsvEU9OVFo9FHCUVQ1dCVC0qb34EhJMJVQFOt0+6cREWhOpLNXKRH8Mc7M9e4Bk5ljI
-      T49AWTO4vlaikNLFYFPg0x9bqF4A1cWTviZra2XySbFvMpOfe14gyaxcuUa1nD9NhpAkidQZ
-      fSc/Q0XFodnpUQgZU8NBj53dGpXqEqBAEFCuLJ15j83HX2JLJoVylYX8xHjbfD9/6GYAABz0
-      SURBVDJhKSYK06M8kFWuXLtGtZAWxqabSdYWChi6Mv19QcBidUV43unMKwo4I3pj55TikC2U
-      zhzboNsmX7lCJsQ9MhIplooLqIokzr1nMbQcgl6fysJE7TITGcoLC8iS2DdXXJh/nqJz/foa
-      lawh/I58adI3/JsB0ukku4dHxK+shliiwYT1Kynk8xNVTNIMrq8VKKVjwhh81+aXn3xCrlDi
-      rVs3njby5f2HOI4rUEguXgAUDVUGw5ha+/GYxtbWFiCRSKUpnvhhFT2OO9qiN8iQSpwkz8ga
-      g8Yh3YZPzIhTPak8/ZQLpCXCASuNfvOQTl3sa+oKW1ubgEwynaWQS+MHAZ41YH2jg6bHqCwu
-      oioShnbSV5JJpbPT+EXg8GBjj5vIggCMxjZLy8voT5XkwEcKfDY2NlBUlWJp4TTwVS4vUus5
-      pBPTCU+mM8iqjh6iMbuBjDdsst5toOsGlcoiigS6pnF8uIsfTAJEi6UCBB74Hhsb6yiqRink
-      CdI0HR8ZI5Q4rysSW5sbICtkcgWyJ+pmMpVkc++YVMLEPOkfj+ns723jBxBPpCgXJwvtKRco
-      W5gWxozHNHZ3tvED6aTvxK5SpYCtzQ0kWSGbL5FOmthouN1jNlo+mmGwXFk87bu5uYEsqyxU
-      qqeLvdlo0TjYJF5cYjk7VdFisRi57NR+8ySNcfuIjYaPbpgsnRi9k0ShAslM2NaTyGVzOJ6H
-      ElLPL1wAHHueb5HO5kmmJ4s+XKjUtfps7R2j6iapa6sAmIk0qzNRRICYrtLpDVhMT3+UmUyz
-      mkzjOo5wrOUKZVSthS/pp/aFohmsrKzM3TdfLKNpLQJZJx2yRQZjlxtLOWIJ0egyzRj3N7ZY
-      qlZRFUBWTk6DeZxFhy6WJi+p02piuxO6rxYzWa5WaDTbpLJTt2kykyOZyeE4DurT3yerVJeW
-      hef0ThxYtuuRSiYIc3HzhRLZfACShBpyNrTbHRqH68RyC1wtTQzWVDZPasZdChBTfLpDl3wp
-      9E5zBdK5gjg2oLxYpdFsEjfNU3JgzEyysioaxUgS5cXKSd/46eIPAo90No+7cyi4NgFcx6FW
-      r1M6OT2NeIqV1bMzGefo0LLCyuoqBD71RouE+ZIywgaNfQ6aA4EKYY+HHB0dTVIPQ1CNJOVU
-      bG7SH9//kru//Al/8fPpB9CQFGKaijfjM33y4Ev+7id/RX3Gvfbwi1/zs7v3hbZ+c5/P7z9h
-      OBZdnvc//4Sff/aV0La18QRPSWINwnyUgFg8zdJiWeSfuyM++dVnQogdJjyeve1Njpq90D18
-      dnZ36Q4GgqelVTvkV5/8jP2G6BJ8eO8uf/lXf8PIDtsMHX7yd7/i//6jP2Icihbt7W4xGAwY
-      hYKCw0GPo8NDGi3R9ZtJZ1FjKYpp0Tv05We/5q//+q/44sHjaaOiE1OCueDm/S8+4c/+/Cdz
-      Zcp/+tO/5dGTdaFt+/EDtvYPRddmAD/96d/x6EmoNPy4w+df3GdlqcRxxw53ZXFhgeQMpX7r
-      0VdsHxwKiUsAjYNNvto6FNpG3RpHzR6jEJ/owgUgUyhPGJfdqR9Yj8XoN4/44oE4Ka41xJGN
-      OZ/x4mIRV07yvbeuTRsDj3a3j6KKQ04lE6SyRbQZWsDKjXd5//aq0GbE0/RbR4zs6c4wGvTI
-      lle5WhWDMW+98z5v3b7Bjes3Tts8x6LVatLuDcVIsKyjBCNaXVEADDOOLCvkQpFgz7E52N3G
-      9mSUULQpUFQ++ugjjJnMnFTcIFtaEAJTaEkyZsAH3/8t9NDvLhVLPHl4j35IwGNmnMO9TTa2
-      9oT79gZ9kqZGZyDGOYqFPOn8okjV8MZ0Bs5cqfuUoZNbrM65QT/+/scsLIh1xIulPNsbm3gh
-      Yel129xYu0kmOz1lFTPPj3/nx1y5dpOl3PQE6DQb9HrdmdgAFApZtje3mckNIp0vkZqheo+G
-      Qx4/fEgqFPS8+HwA3eSjD96jkA89RNEwTOM0Re4p9ESe3/7ofVZOjNqnOD5uUCgWiId44q1m
-      E8M06XbFHdIwTHykmUjpxPU2yxy0Rn1SmSzt0D3MRApdU3BdsW+rUWNvb492SJA9e0Rv5FJZ
-      KIn+c99G0pIM+zMBtkGf0tIVYVGruoGu68RNMSJqj4c8eLRJ3BSPfTOeQpElMZrsDOg7Krls
-      RjiJEokU7334PXIhm0PTdHTdIJEQd/rS4hJvv/8RS3nxnTSabXLZtDD3x/U2ibhGb4YabsZT
-      aPJsGAxcx8KdWajNRptKIU5zOD2dUuksqirjhIKNgWezt7fH3v4+duh067SbmJn8qWPl9L6t
-      LuWsQWcsermGlsfVZXFdxc0YsXhSsAEungzne/QHA5yQCzIIAmQjzepiSNUJAg427vHJp/e5
-      /3gzfAPypYU5nnouX0SV579w0mp1SMRkhpY4AbVaDXMmWUPSTJKJOAsFUa8f99s0OiIHJ59N
-      86u7n7IV4ggpukE+k0ZWVGFBWm5AIZtkYUGccFlVwZ+nJjz1YoShKiqO1afVC1ETfJeRJ01O
-      kNAtLE9htVpAmtl7XddmOBgJvKHA98mWFskmw/nVLp9+8gse3bvL+nFfaC8vVufSC8vlEgSB
-      8E4B6p0hKvN06FqtJiYHBQGpXB7VSFOMKzN9j7BCJ7Kk6ATOmC/v/pzaYLopZbI5YqoqxjmC
-      gHS+gG5myJkzHDFNm3Nta4kc2WQM152ekBcuAJKiE9Nk7HCep++yu/6A426IWCZJLF65hep2
-      xYUjyfTb9TlePECz0xdVhMAnnc8Ti2eEgA5AOmHMJcQ0j3bpDsY02zOnSCJFMTfDBZJk3n/v
-      PbKZqUGu6ibLy1UMXSHsunaHHXbrXZqhQBGAomqM+x0h6R+g1TieI8PJms4H738wlxG2tbWF
-      bY0FIYqpAYe1DnfvfiIktRtmgsC1cUNtrmPx1b0vscNUClnl3Xfv0Oi64gkgq9SPD0Ti3Qm6
-      wzFqOHrtOeSLRbLZ/JwKZGjyXELM+sY62H1aI1GIcuksyZmSPEY8xQcfvC+kxGYLZYr57ByT
-      d319Hd/q0Z05AWR/zHFLVEl9e8ze3r6Ql/KSEmJkIT9WVjQWSvm5LH1n2EbS0zQa4mLIFRcI
-      rKHAEbIdh0zCIJBDep0ko2samqrM7ULNxvFcQkyuUGJpaUng5wM4ljOnng16HVrdvlBwqlvb
-      4yc//QVPnqwLGWiJTIGY5M6lB2p6DEkCc+Z5MTPJ0kJJaHNsm87AppgVmaM3b9wkkUiJKpBq
-      UsolqFaqc6eAohvEQ7qvFjPJZpJz+Rn14zr5TIzjjkiGW1xcZNjvCfNpuwFxDdRYaI4UDV1V
-      UM8oWrW7fyQmxEgS5VKFpZUV9JkV7PreaY0eAIKA49oRlqcI9PIvPv019x88YnN7W7jv6vLS
-      JD1UF8eRSKaZMRfxfZd8cYFcZmpIXzAbNKC2t06jZwth89bxAa5sUCmLR78SS2Jo0uTDezOQ
-      AhcrdOR+8cVnxMw4miayPi1rTIA8x7gsVdf4+z/+vtAWM5N0GseC2+7BV1+ixMw51SqRSuE7
-      jpA/mipW+PD9d1ldWcHUxZPIcQMsW1xkvVYdz3X4q78Vi9y6rosys9MrUsD2+lfsHE/tCMex
-      GY3Fe07+oc/2fpMvv/ximirpezx68ADXGdPoTf/mcG+bVKZAJjOToJLNEUgauRne/uS5YhT+
-      13fvkkwm5+Z+PB6d+S2zO++8x3tv3Rbacuk42/t1Ic/3i88/xUykxEiwJJGK6Ui6KXjJbt66
-      zc2b11muinkUjuOhBI7oJQMOa02aBxs83AhRrQMfP0BQ8S78BCgs3WC5lGR5aTrQoe0Q1xUC
-      SXzpvmvhBhKj8O4UBLR6A6qLJUHvXbtxm7W1NRaKohB51oihZc/RrwedGj/95LOZ0Un4zojD
-      kDs2lcmztrbGleXKTFcNXZ2UGjltkmRa9eNJaZbwCpEkstk0hRndPldaxHFcPnr/HaFdVyQO
-      j0OnnjPEV01uvvWuEP7XNB1FkXHcGVqIniaf8Pnwox9OvUCSxO133sZM5lkqTHc42/Ug8ARK
-      AMB4PEaWAkbh7LEgoD+yT/3sT3H7rXdZW1sjnxFdkKPBAHuWNgHUD7b47P5joU1SFJzuMcfd
-      qfqRLy2wtrZGpSzS0wvlAvXDA5zQO40ZBnu7u3PsVVVVyJWX58mQ5RLxbImVytS7p+gmw26d
-      3vBlpUQGHk82NukOxxwc7p82Ly2vsnztFneuhhaZZ7O+e4waM1heFF2Qxwd7tHoDgdE47nfZ
-      XH/MgydiYn2AxKjXZiBmT5AvLqBKolDYox5DT2O1OnXRVSsV9rc35lIUCRw2d/ZptcVE97hp
-      MBzN5ATjMxiM5l5Oq1FjNB7NJHbA0HJOo+GTZwU0G3Ua9fqc/n2WDYAzwCLBeNSf7majFutb
-      u4ysMVtH01Nk9co17rz1DothBuywxlG7R5CqUEqHjOPAY29vTyjaBdBrNXny6AFbe6JfXcPm
-      sDlfU7ZcWcZ3xVhLu9lCSS9SDeUDVBcXefToMc2mGB9qNtq06nt0BHtBQlPkOYEb9XsEZ3wl
-      s3a0S7MzOi3PCeCO+2jxLImQynWxkWBJoZjN4Hg+qUzu6/vKGoVsGtcLGIys08gcksSt69c5
-      anUFg9d1Xca2ixxqC4IAwzCxnPqcG9QPAtIzxpVuJtHVtsBUhAkrseMPWamE9HJJ4/23b5Oc
-      SdbodLpYjs3QWSZ9OhT5pDyjeN94IsnVtVunPCCYqDVLS8t44Vemxbl589bkTiGWqOPYLC+v
-      0OvNLDItybtv3+S4FhJaI0s2PTkpsvn5SLoAI0c25REwxnK8Kd9GVrlx7QrdkS24eT3PxfF8
-      pJCaGATBJO93dmwArk1qJiEmm0vTPTyZ+9BvPD4+wJdkwTOWL5ZYkzUKQkLMpKbn6PiQhZAw
-      67EYI8eZswFz5RXySzPFmtUEiwVX+GTuhVMh+v0+tm3hok4X9VmQgAAUyWdsO0LfZrPGg/sP
-      SBaXWDgJh1eWV0WyGjDqHLF90ECTJfpjDyM5FQLbsjBnClUd7m5guwrNTo/kSfL5sNchVaiQ
-      nUmfI3BodgZkw1leQUClWuG42ScZCwmcJItVF07gOjZj2xF2b03TGQ979F2VxadHf+DTqB2x
-      tbXN2lsfUMzET5p9bNuGmZqXrUYNy/FQ1LBa49PvDbCGHbRkTuADzUGefAvZswY4fkD4LbUO
-      N/lkq8/Kysqpx2XlyjUCQAqdcLvrjxm4Hqo8oSKHd+CB5ZMuiO7Krx49IZc0aY08Fk8ErtNu
-      cuXKNWJxUbVq1o5R4mlBCINAYrFcRI6JfTVVpj2Yn/vRaERMEdefrms0G3V0M3XKPr5gG2Dy
-      tW/PC878IrkA32P/YJ8nTzaoN6Zqhjvu46pJPvqtH5APpTkOeh0e3Pucx6GIppkuUSgWeevO
-      LbJx0UBrd7rEDXECcsUFNEUWglDxVIZ+64j1nX1ESKiKLNJ6CThutPDdMeOw0RUE6LEYna4Y
-      CJMVldrBNu2+aMj2+33GodKByApy4DEaDYQorm4mWVtb4607t9HCleEKJVLJhFDhjsCb8OcD
-      ztTLBTh9tnd22VyfOCyeotvtEC9d4Xc/flcwQDvtJp/f/RV7R1PHxtLqCtlcibduXJ3zRA0G
-      PbSwcEoSCwtVJEUVTupMNs/uzibHx6L6qek6nuMIaqbj2HQHQ7o9MSXWR0bxxgxn9EzJHfFo
-      S3ynnj1k7ASMrZdlA0gy167foLSwIOqcZ0FWee/9D/nBD3/ErWtTkpqs6fTajUndy9AEpFNJ
-      dg/q2NbUbSfJCoo35sGjJ/RDxpxjWySTSVodcbI0PYauaXP6Yq5QOmVJhqGoqkAgIwjodjpI
-      iooW8rHZjoOiyHOV4WRFo1qtCruxY43oDO25WqRmPE4mkxWKxJ6HX//ipzx4+JidvZCvXTG4
-      df0q5eoKhdQzvlmlpfjoo+/xw9/9PVYLUzXB0BRqtbpQOxUgn1LZb1kMe1MBlzUDr7vP508O
-      CHsrrPGIZDJBty/64BNmbFJXaEZXqZQXMOLieAOkyXsKHQG+a9HtDzFiU6EPPAcfeVJhcEYF
-      TuVLLM7Edlr1I1QjLuQkXLgXyBs1+cnPPmFrJhByFgLX5sFX93gS2tVlRefGtSvU9zdpDEQ2
-      361b11mqiN4aRVUn5UAU8acUSgssLYp8FHvUY2j7ot8Z2NvZnCPqgYTve+IJICskdbj72ZdC
-      hbPjvS2afUtwmeLZfHHvHo1Wj5gm+uWLhQLv3BHdhJoeQ5IVoe95uP32e9y4fpVKRYw8148O
-      uPurn7HfHJzzl1PYowH3v/yCvVBATjeTXFlaYH1jXQj0oZjcurZMdYb1qujmfC41sFBZplwQ
-      N8BOs4GvJ8VUUgI2nzyi2RXtCEWabCrhE8CIJznY2WLvYLqr+67F/UcbmKZYOrJxtMuTje2Z
-      pNOTYFqxzNWlqVp78ZFg1eDHP/oxt9ZWn9nXswYY2cW5asTjQZeeo5ANG0FBwHAwFN2dgc+T
-      rR1y6aSQ8hd4DpZlcVwXI7NnkeFgUsGtVBaNXSQJ/ww1Lp5b4MN3bgoqyfKVtdOPV0z/XqZS
-      qbJQLsylI0q+zeONUEDHHXLv0RaOO18m8izEDZX9/WO2NsSSiUYizY/+3j/gSvnZHzvp97tU
-      qkso6nw1DS2WQHRo+QyHYzHF1HNY36uRnlE9HXuMZds0WmLy+llkOJDQMwUq2Xm9fmzPzr3E
-      e++9J+QDKLEkt64tEUiycGYZ8RRLS8tzxQjUWJzGwQa15ssqi8KkLOJnn/wtO4eNZ/btdFr0
-      uh0MU1Q/Ot0+1aXqXNhbVVVRz5Zkbly/QRD4gsv08OCQ3Z1tdvZFt91ZZDiY1LRXZx8WeOwc
-      1WnUQieZ700SexRdPHFklZgqz3iBJHQ9RixmoM0Evfb3djmqh08chVwuQ75QmPvNZyNAUhTG
-      4yFuSAA02eMn/99f0eiOvuZvJ2g2m3Q6HSEHAiZVKCqLJVEJCiRUTaHTCc2bonH71g2CGX7Q
-      wcEh2+tPxDgHZ5PhAHLp5Fx8aDCyaB88oTaY9h0PeuweHgskPYCEaU5Oi1CboihomkZ8RrVy
-      x332Dmq0QhXGL9wL5FldLEzGgz5QOL9jEGCk8qSczpz/vLywwKONbRYqVU5lWJKJmwbKDN3A
-      s/rs7B2SX75B4iQ6u7p2g1UC8bTwHfquzq21Fdqj6UId9joEcoxUYsZjJWnculqltBCKPMoK
-      K4sl+r58knQyWSatVot4IiF+z0BWSMZjHB4do8XTpx+yCAKfK9fviLU31RhXV+eTdc6F7+F4
-      AW+9/S4xVeapEtJq9TD1gIHlUfy6vw8CiqUynd5wzh6qlAs8OWqzXF2c/puiEdcVzJkFNWgd
-      slsbEP5k4s3bbwEB4UMvcPpo2SoFuc8oZDt12k3i8QT6TGXubDbLwLtOJSOma6bjMSGhyndt
-      BrY3x58y4kmUfp9avSHUgPID+N5HH0PoJLt4OrRm8tsff59c9tnH8Hhs0agdzgde+gOkwBY8
-      LZZloWkqykyB1l5viISHH4iv8pO/+0v+5pPQh6YlmV67zt7+EUpoEuOpDL1el0Z9JhAmyaj4
-      tDriaYGs4FsD7BABPVcoUa1WyabnSzH6k09ZncJzbA73d/GCZxu75yGQVZTAnWM7xlNpPv74
-      B3O18udv4GFZFocH+1gzVZWH4yGj4UiIPFuWjaqpwuKDicFrOd6cD/7//eM/4fGTUCRY1mkd
-      77J31CI24wXqdLocH4kndcw06bcbc2qQpoueNlnVqVarVKtVobIgTJwNqi4K1mg4ZHN9XSiD
-      +RJsAJ1O4xBZ0Z/RUSJlSNQ6NoP+dJG5oy6bu4fkSkuCrz2mK9z74h57R9Mqcp4zRkukuPnW
-      ++RnaLZLq9fFKmuSwo2bt7h2/cZcqcKkqaPFxKAJgUegxIRPEAGYhoGPPGd0n4Vhv8Pe7i7t
-      UG3Q8/IBXgSO42JbI8YzjFlDV9g/qj/bjpBVPNvFs3r0QjTybuOIvVqfq6ui+hmTbT69v81R
-      KLpvDfuY2Qo/+N5bc6fIO3duCmqtpOjcuXObG7fvzBTHhZgKiZn6oqPBgGwuN6MZTCLBsdhM
-      vOYcNGpHbMyUXPxW8gH8cY/WwMWIPduYC5D54MP3BX+9aqS4tbZM7eh4hkevcP36NbLpUIFd
-      16bd6ePa47lMoZFl47lnf0AujEGvzc5hnWx65sQKfGzHZTgS9elmq40cOIxm+Q1nwDATpDMZ
-      zNCCPDo+prK8isyz//486LLHyFXmhKjTbBAosTkW5FlQjBjvv/8B4fWYzpdZWchxdFQTd3Ul
-      xs1rVbKh6P6k3L3FcDhvbziOOwngPQOdVp1ae0ByJsnFsm0C12YknE4+g7FNd6ZA73lImAbF
-      crhUpUvHklmpFBiOpqzki2eD1prEdIXmTA7qWRiNLHrdDoXQtwTccZ9m32F5eUlkeEpguZAM
-      eYwU3cRU4eDomBkuHJ7nnZl4Mj9muLK6InylBGB77whF9udKgpfLZTTdxBk/29Wo6TFkWRay
-      vOzxkHqtNq9avQDOTIjxXZr9IZIzoD2T5ngWnPGI1tCnmJn+7m67jo3O8tKiuKtLMkjid9SM
-      RAbsIbX6rPsY/Oec++Bk7sPxE2/cZmS59IZjXCHPUaaYy2DquvDhlPOQSKUFTx1MaqTWazUh
-      AeeCuUASMV3FHwckZvj1Z8FMpult36dfKJ0Gi1Qzxc21M+yHwOfR5iY3ZSgXiyePk1m7dYcb
-      Z3wG86yPpJ2F4aDLyPIIpL7AdlRw0XUTeUY1OjzYZWf/mO9Vnu3mHXSa6MmcYKStrF595t89
-      CwcH+6j6TLBLVidZdIpG0nyG+glk0knuP96hWCqjnjBQ07kS6bPil57F4609JMoUT+ZeVnXu
-      vPPemZ8gjcViYlGyc9DttPAUg0G/P6UmaCbD8RHJuCl8Twx8vvryC5LVa6zNfmfpDNRbPRYW
-      Q9UzZJXbd96a63fhJ4ArG+STsTnX31mQ3CGeEufx40fP7LuzvU0+nSSZnu4skqzMpe89xdHu
-      Or/68tn3TaWzWP02jbYYNV5avYasqqxUxGBaJlfg1lvvknyWoQkkMnlisj9XTQECGrX5eMTz
-      YmFhgU6rIToPfBcjmSGm64KOex56nS6ZuMRXm4fP7Lu1uUUqoZEvTYOQiqKc+w3f+/fviYkr
-      5yCXL9CuHwufrJKUGHdu38RIpmdqg0pcvXmLteX5r0XOIggCFsplRuP5k9B3bQ5C1cgvmAoh
-      kU/F+MWvP2dn79kTq8SSZFNx1q5deWbfSrVKMhEXXY1fg8Xla1ytlJ7ZTzMSvPPB9/jwnVvi
-      P3gWvd5grtSJPRpPTpbZIvxnYDweMez35uyTn//NX/Dl+v5pQaoXxc7WBqqROi0mBkxOAMnn
-      i7u/4KD9bPUsmS1gmEmuLZef2beytErKjM25q8/DnZs35sqjn4V4Ksv3PvqY22uiC/hgdwdZ
-      lufmbTgczjFuz0Lgu4xtR/iqJcC4e8Sf/eXf0QttHBfvBo2ZVEp5Us+hAiFJeJ7/XINQVZUA
-      ed5deQ7qzRb5/Hym2SyUM7jkk7EpqJI/lwhuj3vcvfspA/s5jNhgsvuHP5IXBD6Vq7fmyrC8
-      CG69/QG3b67NfeopEU+QL5RIGs/2MMkSzB1M50DXJJBjHB09e1MDaHZ65Gbq95yF2argT5E4
-      M+ciYHNjk62dZ58ssqIxHrSZ5QROnC4fCMzjl/CNsIn0+c+xUfvOCMdxaXXP4JTPQSaTzfLW
-      nVvP7Om5NpXq0rlH9HMhcBnZ/txLzy2s8qPf+v5zqUBnfSTPc2z29/fJnFGB7TeF401iAwJl
-      4RwMex1c16Y/franDFknl8tx58a1Z3a1LIvV1ZW5susvgk63C3aP5kxCzMcffcTVK1ef6x5n
-      fSSv32lxWGsJX/j8/wGoMtwq/o38PgAAAABJRU5ErkJggg==
-    </thumbnail>
-    <thumbnail height='117' name='Nonfarm Emp' width='84'>
-      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
-      /wXguX2XrzfM7wAAAABJRU5ErkJggg==
-    </thumbnail>
-    <thumbnail height='64' name='Private Emp' width='84'>
-      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
-    </thumbnail>
-    <thumbnail height='192' name='Sheet 10' width='192'>
+    <thumbnail height='192' name='Business with uncertain remote pay' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
       AAAgAElEQVR4nOy9SXBk13mo+eU8z8gEEvM8DzWgRpIlkaJmW7Ktp2c73nuOXrg7ohe96U0v
       OqLD0evuTUd0L55fhO1nS7ZsiTQpqUhWseYqoDAPiRmZyASQmUjkPM95by+KKqlosEjJBAGb
@@ -9687,6 +9303,390 @@
       HBarlffe/jXtZy9w8kQf8eA2FUGLSVHm367P8Ld//StikShtdiPrGztYW20chA9wdfZQKogo
       hQY6k/3RV4n8niT2AyhsHeiPUezioamX8O+n6exwPLIm/Celibj5P37MhAAAAABJRU5ErkJg
       gg==
+    </thumbnail>
+    <thumbnail height='192' name='Employment by Indus' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='117' name='Nonfarm Emp' width='84'>
+      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
+      /wXguX2XrzfM7wAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='64' name='Private Emp' width='84'>
+      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
     </thumbnail>
     <thumbnail height='192' name='gov-mandate closure' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
