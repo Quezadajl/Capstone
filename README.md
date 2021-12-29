@@ -11,7 +11,7 @@
 
 ## Tableau Presentation
 Explore more -
-[Capstone](https://public.tableau.com/views/QuezadaCapstone/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+#[Capstone](https://public.tableau.com/views/QuezadaCapstone/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 ### Data Sources
 The U.S. Bureau of Labor Statistics developed new data on how U.S. businesses changed their operations and employment since the onset of the coronavirus pandemic. 
@@ -44,4 +44,9 @@ I will address survey statistics collected and published during the pandemic to 
 - Demand for services and resources
 
 ### Findings
+![](Images/filename data.png)
+When employers who told employees not to work received a loan or grant tied to rehiring or maintaining employees on their payroll, 59 percent continued to pay employees who were told not to work. 
+Only 38 percent of businesses that did not receive a loan or grant continued to pay employees told not to work.
+
+When businesses did not receive a loan or grant, larger businesses (60 percent) were more likely to continue paying employees told not to work than were smaller businesses (38 percent).
 
