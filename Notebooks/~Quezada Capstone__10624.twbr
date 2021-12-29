@@ -10837,7 +10837,7 @@
       <active id='-1' />
       <simple-id uuid='{8FCFADC6-0BA1-4053-9994-6E0DD98F7593}' />
     </window>
-    <window class='dashboard' maximized='true' name='Dashboard 1' tab-color='#4f779a'>
+    <window class='dashboard' name='Dashboard 1' tab-color='#4f779a'>
       <viewpoints>
         <viewpoint name='Barchart: Nonfarm v. Private Emp'>
           <zoom type='entire-view' />
@@ -10864,7 +10864,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='21' />
+      <active id='-1' />
       <simple-id uuid='{9228165A-68DA-475F-8CC5-F8887201AA59}' />
     </window>
     <window class='dashboard' name='Dashboard 8'>
@@ -10925,13 +10925,13 @@
       <active id='-1' />
       <simple-id uuid='{768247BC-0631-42C3-A747-2576A188B2E8}' />
     </window>
-    <window class='dashboard' name='Dashboard 6' tab-color='#4f779a'>
+    <window class='dashboard' maximized='true' name='Dashboard 6' tab-color='#4f779a'>
       <viewpoints>
         <viewpoint name='people_data'>
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='10' />
       <simple-id uuid='{52A4227B-C3E9-40F4-A3B7-31E35463069D}' />
     </window>
     <window class='worksheet' hidden='true' name='Barchart: Nonfarm v. Private Emp' tab-color='#4f779a'>

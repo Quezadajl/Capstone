@@ -7,6 +7,7 @@
 * [Methology](#methology)
 * [Focus](#focus)
 * [Findings](#findings)
+* [Interesting Facts](#interesting-facts)
 
 
 ## Tableau Presentation
@@ -50,3 +51,13 @@ Only 38 percent of businesses that did not receive a loan or grant continued to 
 
 When businesses did not receive a loan or grant, larger businesses (60 percent) were more likely to continue paying employees told not to work than were smaller businesses (38 percent).
 
+### Interesting Facts
+![](Images/characteristics.png)
+# Employed people who teleworked at some point in the past year because of the pandemic
+
+The likelihood of teleworking because of the pandemic varied by occupation. 
+In July, employed people were most likely to telework because of the pandemic in management, business, and financial operations occupations (46 %) and professional and related occupations (44 %). 
+
+*In July 2021, about 1 in 4 employed people teleworked or worked from home for pay because of the coronavirus pandemic. 
+The share of the employed who teleworked has declined over the last 3 months. The 26 percent of workers who teleworked in July was down from 31 percent in June and 35 percent in May.  
+This measure does not include those whose telework was unrelated to the pandemic, such as employed people who worked entirely from home before the pandemic.
