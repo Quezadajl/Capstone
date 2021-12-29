@@ -11,7 +11,7 @@
 
 ## Tableau Presentation
 Explore more -
-#[Capstone](https://public.tableau.com/views/QuezadaCapstone/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+# [Capstone](https://public.tableau.com/views/QuezadaCapstone/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 ### Data Sources
 The U.S. Bureau of Labor Statistics developed new data on how U.S. businesses changed their operations and employment since the onset of the coronavirus pandemic. 
@@ -29,22 +29,22 @@ will aid in understanding how employment has swifted across industries along wit
 
 ### Methology
 
--Data was explored using Python and an API from the Bureau of Labor Statistics. 
+* Data was explored using Python and an API from the Bureau of Labor Statistics. 
 
--Presentation with the use of Tableau.
+* Presentation with the use of Tableau.
 
 ### Focus
 
 I will address survey statistics collected and published during the pandemic to provide indications of changes in employment in the following sections: 
 
-- Impact of the Pandemic on Employment
+* Impact of the Pandemic on Employment
 
-- Establishments shift to Telework(Remote work) 
+* Establishments shift to Telework(Remote work) 
 
-- Demand for services and resources
+* Demand for services and resources
 
 ### Findings
-![](Images/filename data.png)
+![](Images/data.png)
 When employers who told employees not to work received a loan or grant tied to rehiring or maintaining employees on their payroll, 59 percent continued to pay employees who were told not to work. 
 Only 38 percent of businesses that did not receive a loan or grant continued to pay employees told not to work.
 
