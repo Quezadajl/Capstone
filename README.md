@@ -5,11 +5,11 @@
 * Data Sources
 * Methology
 * Focus
-* Known Issues and Challenges
 * Findings
 
 
-### Capstone Link <https://public.tableau.com/views/QuezadaCapstone/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link>
+## Tableau Presentation
+[Capstone](https://public.tableau.com/views/QuezadaCapstone/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 # Question: How has Covid-19 impacted different industries in turns of employment?*
 
