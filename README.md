@@ -2,7 +2,7 @@
 ### We will analyze how establishments shifted operations during the first year of the pandemic
 
 ## Contents
-
+* [Tableau Presentation](#tableau-presentation)
 * [Data Sources](#data-sources)
 * [Methology](#methology)
 * [Focus](#focus)
@@ -11,7 +11,6 @@
 
 
 ## Tableau Presentation
-Explore more -
 # [Capstone](https://public.tableau.com/views/QuezadaCapstone/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 ### Data Sources
@@ -52,7 +51,8 @@ Only 38 percent of businesses that did not receive a loan or grant continued to 
 When businesses did not receive a loan or grant, larger businesses (60 percent) were more likely to continue paying employees told not to work than were smaller businesses (38 percent).
 
 ### Interesting Facts
-![](Images/characteristics.png)
+![](Images/Characteristics.png)
+
 # Employed people who teleworked at some point in the past year because of the pandemic
 
 The likelihood of teleworking because of the pandemic varied by occupation. 
